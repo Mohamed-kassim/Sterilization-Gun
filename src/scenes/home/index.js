@@ -1,17 +1,33 @@
 import React from "react";
 import { SafeAreaView, Text, TouchableHighlight } from "react-native";
-import { useGlobalState } from "_globalState";
+import AsyncStorage from "@react-native-community/async-storage";
 import Map from "./map";
+import { t } from "_i18n";
+import i18n from "i18n-js";
+import { Button } from "_atoms";
 const HomeScreen = ({ navigation }) => {
-  const [count, setCount] = useGlobalState("count");
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <Map />
+      {/* <Map /> */}
       <Text>Screen: Home</Text>
-      <Text>{count}</Text>
+      <Text>{t("hello")}</Text>
       <TouchableHighlight onPress={() => navigation.navigate("About")}>
         <Text>Go to about</Text>
       </TouchableHighlight>
+      <Button
+        gradient
+        onPress={async () => {
+          console.log(i18n.locale);
+          const language = JSON.stringify({
+            languageTag: i18n.locale === "en" ? "ar" : "en",
+            isRTL: i18n.locale === "en" ? true : false
+          });
+          console.log("language", language);
+          await AsyncStorage.setItem("language", language);
+        }}
+      >
+        <Text>{t("buttons.changeLang")}</Text>
+      </Button>
     </SafeAreaView>
   );
 };

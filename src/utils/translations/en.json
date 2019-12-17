@@ -1,4 +1,17 @@
 {
   "appName": "Dokanek",
-  "hello": "Welcome to Dokanek!"
+  "hello": "Welcome to Dokanek!",
+  "permissions": {
+    "location": {
+      "title": "Dokanek Location Permission",
+      "requireMsg": "Dokanek needs access to your location",
+      "failMsg": "falied to grant Location Permission"
+    }
+  },
+  "buttons": {
+    "neutral": "Ask Me Later",
+    "positive": "Okay",
+    "negative": "Cancel",
+    "changeLang": "Change Language"
+  }
 }

@@ -6,6 +6,7 @@ import { requestLocationPermission } from "_utils";
 // const forceUpdate = useCallback(() => updateState({}), []);
 
 const initializeApp = () => {
+  console.log("iam here");
   setI18nConfig();
   RNLocalize.addEventListener("change", this.handleLocalizationChange);
   requestLocationPermission();

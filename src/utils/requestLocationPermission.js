@@ -4,33 +4,36 @@ async function requestLocationPermission() {
   if (Platform.OS === "android") {
     try {
       const granted = await PermissionsAndroid.request(
-        PermissionsAndroid.PERMISSIONS.CAMERA,
+        PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
         {
-          title: `${t("appName")} Location Permission`,
-          message: `${t("appName")} needs access to your location `,
-          buttonNeutral: "Ask Me Later",
-          buttonNegative: "Cancel",
-          buttonPositive: "OK"
+          title: `${t("permissions.location.title")}`,
+          message: `${t("permissions.location.requireMsg")}`,
+          buttonNeutral: `${t("buttons.neutral")}`,
+          buttonNegative: `${t("buttons.negative")}`,
+          buttonPositive: `${t("buttons.positive")}`
         }
       );
       if (granted === PermissionsAndroid.RESULTS.GRANTED) {
-        console.log("You can use the camera");
+        console.log("You can use the Location");
         return true;
       } else {
-        console.log("Camera permission denied");
+        console.log("Location permission denied");
         return false;
       }
     } catch (err) {
       Alert.alert(
-        `${t("appName")} Location Permission`,
-        `${t("appName")} falied to grant Location Permission`,
+        `${t("permissions.location.title")}`,
+        `${t("permissions.location.failMsg")}`,
         [
           {
-            text: "Cancel",
+            text: `${t("buttons.negative")}`,
             onPress: () => console.log("Cancel Pressed"),
             style: "cancel"
           },
-          { text: "OK", onPress: () => requestLocationPermission() }
+          {
+            text: `${t("buttons.positive")}`,
+            onPress: () => requestLocationPermission()
+          }
         ],
         { cancelable: false }
       );
