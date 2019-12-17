@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import Navigator from '_navigations';
-import {GlobalStateProvider} from '_globalState';
+import Navigator from "_navigations";
+import { GlobalStateProvider } from "_globalState";
+import { SafeAreaView } from "react-navigation";
 const App = () => (
   <GlobalStateProvider>
-    <Navigator />
+    <SafeAreaView style={{ flex: 1 }}>
+      <Navigator />
+    </SafeAreaView>
   </GlobalStateProvider>
 );
 

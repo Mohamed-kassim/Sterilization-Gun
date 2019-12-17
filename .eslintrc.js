@@ -18,7 +18,8 @@ module.exports = {
           _styles: "./src/styles",
           _utils: "./src/utils",
           _bootstrap: "./src/bootstrap",
-          _globalState: "./src/bootstrap/globalState"
+          _globalState: "./src/bootstrap/globalState",
+          _i18n: "./src/utils/i18n"
         }
       }
     }

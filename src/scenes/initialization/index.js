@@ -1,19 +1,19 @@
-import React, {useEffect, useState} from 'react'
-import { View, Text } from 'react-native'
+import React, { useEffect } from "react";
+import { View, Text } from "react-native";
+import { initializeApp, cleanApp } from "_bootstrap/initialize";
+import { t } from "_i18n";
+const Initialization = () => {
+  useEffect(() => {
+    initializeApp();
+    return () => {
+      cleanApp();
+    };
+  }, []);
+  return (
+    <View>
+      <Text>{t("hello")}</Text>
+    </View>
+  );
+};
 
-const Initialization = ({navigation}) => {
-
-    useEffect(() => {
-        setTimeout(()=>{
-            navigation.navigate('App')
-        }, 1000)
-
-    }, [])
-    return (
-        <View>
-            <Text>loading</Text>
-        </View>
-    )
-}
-
-export default Initialization
+export default Initialization;
