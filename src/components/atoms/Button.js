@@ -89,8 +89,8 @@ export default Button;
 const styles = StyleSheet.create({
   button: {
     alignItems: "center",
-    borderRadius: Spacing.RADIUS_6,
-    height: Spacing.BASE_16 * 3,
+    borderRadius: Spacing.RADIUS,
+    height: Spacing.BASE * 3,
     justifyContent: "center",
     marginVertical: Spacing.PADDING_25 / 3
   },

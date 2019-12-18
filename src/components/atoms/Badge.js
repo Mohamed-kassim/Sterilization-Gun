@@ -34,8 +34,8 @@ export default class Badge extends Component {
 
 const styles = StyleSheet.create({
   badge: {
-    height: Spacing.BASE_16,
-    width: Spacing.BASE_16,
-    borderRadius: Spacing.RADIUS_6
+    height: Spacing.BASE,
+    width: Spacing.BASE,
+    borderRadius: Spacing.RADIUS
   }
 });

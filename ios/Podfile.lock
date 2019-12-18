@@ -42,6 +42,15 @@ PODS:
   - GoogleMaps/Base (3.2.0)
   - GoogleMaps/Maps (3.2.0):
     - GoogleMaps/Base
+  - libwebp (1.0.3):
+    - libwebp/demux (= 1.0.3)
+    - libwebp/mux (= 1.0.3)
+    - libwebp/webp (= 1.0.3)
+  - libwebp/demux (1.0.3):
+    - libwebp/webp
+  - libwebp/mux (1.0.3):
+    - libwebp/demux
+  - libwebp/webp (1.0.3)
   - RCTRequired (0.61.5)
   - RCTTypeSafety (0.61.5):
     - FBLazyVector (= 0.61.5)
@@ -252,6 +261,10 @@ PODS:
     - ReactCommon/jscallinvoker (= 0.61.5)
   - RNCAsyncStorage (1.7.1):
     - React
+  - RNFastImage (7.0.2):
+    - React
+    - SDWebImage (~> 5.0)
+    - SDWebImageWebPCoder (~> 0.2.3)
   - RNGestureHandler (1.5.2):
     - React
   - RNLocalize (1.3.1):
@@ -262,6 +275,12 @@ PODS:
     - React
   - RNVectorIcons (6.6.0):
     - React
+  - SDWebImage (5.4.0):
+    - SDWebImage/Core (= 5.4.0)
+  - SDWebImage/Core (5.4.0)
+  - SDWebImageWebPCoder (0.2.5):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.0)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -300,6 +319,7 @@ DEPENDENCIES:
   - ReactCommon/jscallinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
+  - RNFastImage (from `../node_modules/react-native-fast-image`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNLocalize (from `../node_modules/react-native-localize`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
@@ -312,6 +332,9 @@ SPEC REPOS:
     - boost-for-react-native
     - Google-Maps-iOS-Utils
     - GoogleMaps
+    - libwebp
+    - SDWebImage
+    - SDWebImageWebPCoder
 
 EXTERNAL SOURCES:
   BVLinearGradient:
@@ -374,6 +397,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-community/async-storage"
+  RNFastImage:
+    :path: "../node_modules/react-native-fast-image"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNLocalize:
@@ -397,6 +422,7 @@ SPEC CHECKSUMS:
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
   Google-Maps-iOS-Utils: c32891ff472eaaa1fca032beedafa1a013af7875
   GoogleMaps: 5046d7edfe381c1a0b20fdaf293915a375c3122b
+  libwebp: 057912d6d0abfb6357d8bb05c0ea470301f5d61e
   RCTRequired: b153add4da6e7dbc44aebf93f3cf4fcae392ddf1
   RCTTypeSafety: 9aa1b91d7f9310fc6eadc3cf95126ffe818af320
   React: b6a59ef847b2b40bb6e0180a97d0ca716969ac78
@@ -421,11 +447,14 @@ SPEC CHECKSUMS:
   React-RCTVibration: a49a1f42bf8f5acf1c3e297097517c6b3af377ad
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
   RNCAsyncStorage: 44395cb9c7c1523104c2b499eb426ef7aff82bca
+  RNFastImage: 9b0c22643872bb7494c8d87bbbb66cc4c0d9e7a2
   RNGestureHandler: 946a7691e41df61e2c4b1884deab41a4cdc3afff
   RNLocalize: 07eb7a91d10021cdf59d80061ebf3adb8a5b5688
   RNReanimated: b2ab0b693dddd2339bd2f300e770f6302d2e960c
   RNScreens: f28b48b8345f2f5f39ed6195518291515032a788
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
+  SDWebImage: 5bf6aec6481ae2a062bdc59f9d6c1d1e552090e0
+  SDWebImageWebPCoder: 947093edd1349d820c40afbd9f42acb6cdecd987
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
 PODFILE CHECKSUM: 5a42a42a4be7a151638dcec5e269e593ebde7c02

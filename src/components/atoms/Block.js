@@ -118,6 +118,14 @@ export default class Block extends Component {
       children,
       overlay,
       scrolled,
+      accent,
+      primary,
+      secondary,
+      black,
+      white,
+      gray,
+      gray2,
+      success,
       ...props
     } = this.props;
 
@@ -142,6 +150,14 @@ export default class Block extends Component {
       wrap && { flexWrap: "wrap" },
       color && styles[color], // predefined styles colors for backgroundColor
       color && !styles[color] && { backgroundColor: color }, // custom backgroundColor
+      accent && styles.accent,
+      primary && styles.primary,
+      secondary && styles.secondary,
+      black && styles.black,
+      white && styles.white,
+      gray && styles.gray,
+      gray2 && styles.gray2,
+      success && styles.success,
       style // rewrite predefined styles
     ];
 
@@ -219,5 +235,6 @@ export const styles = StyleSheet.create({
   black: { backgroundColor: Colors.BLACK },
   white: { backgroundColor: Colors.WHITE },
   gray: { backgroundColor: Colors.GRAY_DARK },
-  gray2: { backgroundColor: Colors.GRAY_MEDIUM }
+  gray2: { backgroundColor: Colors.GRAY_MEDIUM },
+  success: { backgroundColor: Colors.SUCCESS }
 });

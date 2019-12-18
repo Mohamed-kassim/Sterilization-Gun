@@ -4,3 +4,6 @@ export { default as Block } from "./Block";
 export { default as Text } from "./Text";
 export { default as Switch } from "./Switch";
 export { default as Divider } from "./Divider";
+export { default as Rating } from "./Rating";
+export { default as Card } from "./Card";
+export { default as Image } from "./Image";
