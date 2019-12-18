@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import { StyleSheet, TouchableOpacity } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import { Spacing, Colors } from "_styles";
-
+import { Badge, Block } from "_atoms";
 class Button extends Component {
   render() {
     const {
       style,
       opacity,
       gradient,
+      circular,
       color,
       startColor,
       endColor,
@@ -16,12 +17,16 @@ class Button extends Component {
       start,
       locations,
       shadow,
+      size,
       children,
+      normal,
+      full,
       ...props
     } = this.props;
 
     const buttonStyles = [
       styles.button,
+      { width: normal ? "60%" : full ? "95%" : null },
       shadow && styles.shadow,
       color && styles[color], // predefined styles colors for backgroundColor
       color && !styles[color] && { backgroundColor: color }, // custom backgroundColor
@@ -44,6 +49,15 @@ class Button extends Component {
           >
             {children}
           </LinearGradient>
+        </TouchableOpacity>
+      );
+    }
+    if (circular) {
+      return (
+        <TouchableOpacity activeOpacity={opacity || 0.8} {...props}>
+          <Badge color={color} size={size}>
+            {children}
+          </Badge>
         </TouchableOpacity>
       );
     }
@@ -74,6 +88,7 @@ export default Button;
 
 const styles = StyleSheet.create({
   button: {
+    alignItems: "center",
     borderRadius: Spacing.RADIUS_6,
     height: Spacing.BASE_16 * 3,
     justifyContent: "center",
