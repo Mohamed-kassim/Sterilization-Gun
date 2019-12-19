@@ -6,11 +6,11 @@ async function requestLocationPermission() {
       const granted = await PermissionsAndroid.request(
         PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
         {
-          title: `${t("permissions.location.title")}`,
-          message: `${t("permissions.location.requireMsg")}`,
-          buttonNeutral: `${t("buttons.neutral")}`,
-          buttonNegative: `${t("buttons.negative")}`,
-          buttonPositive: `${t("buttons.positive")}`
+          title: t("permissions.location.title"),
+          message: t("permissions.location.requireMsg"),
+          buttonNeutral: t("buttons.neutral"),
+          buttonNegative: t("buttons.negative"),
+          buttonPositive: t("buttons.positive")
         }
       );
       if (granted === PermissionsAndroid.RESULTS.GRANTED) {
@@ -22,16 +22,16 @@ async function requestLocationPermission() {
       }
     } catch (err) {
       Alert.alert(
-        `${t("permissions.location.title")}`,
-        `${t("permissions.location.failMsg")}`,
+        t("permissions.location.title"),
+        t("permissions.location.failMsg"),
         [
           {
-            text: `${t("buttons.negative")}`,
+            text: t("buttons.negative"),
             onPress: () => console.log("Cancel Pressed"),
             style: "cancel"
           },
           {
-            text: `${t("buttons.positive")}`,
+            text: t("buttons.positive"),
             onPress: () => requestLocationPermission()
           }
         ],

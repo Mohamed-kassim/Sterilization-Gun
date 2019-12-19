@@ -13,7 +13,8 @@ import {
   Divider,
   Rating,
   Card,
-  Image
+  Image,
+  Input
 } from "_atoms";
 
 const HomeScreen = ({ navigation }) => {
@@ -26,15 +27,13 @@ const HomeScreen = ({ navigation }) => {
           <TouchableHighlight onPress={() => navigation.navigate("About")}>
             <Text>Go to about</Text>
           </TouchableHighlight>
-          <Rating rating={3.5} color={"green"} size={20} number />
+          <Rating rating={2} number />
           <Button gradient row normal>
             <Icon name="comments" size={30} color="white" />
             <Text>normal button</Text>
           </Button>
-          <Button gradient full>
-            <Text bold white spacing={15}>
-              normal button
-            </Text>
+          <Button>
+            <Text>Full button</Text>
           </Button>
           <Button size={50} color={"black"} circular>
             <Icon name="comments" size={30} color="white" />
@@ -64,7 +63,7 @@ const HomeScreen = ({ navigation }) => {
                 height: 300
               }
             }}
-            secondary
+            primary
             title="Card Titlsdfdsfe"
             subtitle="Card subtitle test"
             actions={[
@@ -86,6 +85,17 @@ const HomeScreen = ({ navigation }) => {
               <Rating rating={4.5} color={"blue"} size={20} number />
             </Block>
           </Card>
+          <Input
+            // border
+            // rounded
+            placeholder="password"
+            mandatory
+            secure
+            errMsg={"Error in this field"}
+            // primary
+            gray3
+            label="Confirm Password"
+          />
         </Block>
       </ScrollView>
     </SafeAreaView>
