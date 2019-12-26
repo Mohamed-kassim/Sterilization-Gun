@@ -8,3 +8,5 @@ export { default as Rating } from "./Rating";
 export { default as Card } from "./Card";
 export { default as Image } from "./Image";
 export { default as Input } from "./Input";
+export { default as HorizontalList } from "./HorizontalList";
+export { default as Section } from "./Section";

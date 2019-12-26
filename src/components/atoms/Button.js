@@ -21,6 +21,11 @@ class Button extends Component {
       children,
       normal,
       full,
+      row,
+      column,
+      center,
+      middle,
+      space,
       ...props
     } = this.props;
 
@@ -28,6 +33,11 @@ class Button extends Component {
       styles.button,
       { width: normal ? "60%" : full ? "95%" : null },
       shadow && styles.shadow,
+      row && styles.row,
+      column && styles.column,
+      center && styles.center,
+      middle && styles.middle,
+      space && { justifyContent: `space-${space}` },
       color && styles[color], // predefined styles colors for backgroundColor
       color && !styles[color] && { backgroundColor: color }, // custom backgroundColor
       style
@@ -92,13 +102,29 @@ const styles = StyleSheet.create({
     borderRadius: Spacing.RADIUS,
     height: Spacing.BASE * 3,
     justifyContent: "center",
-    marginVertical: Spacing.PADDING_25 / 3
+    marginVertical: Spacing.PADDING_25 / 3,
+    padding: Spacing.PADDING_15 * 0.5
   },
   shadow: {
     shadowColor: Colors.BLACK,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 10
+  },
+  row: {
+    flexDirection: "row"
+  },
+  column: {
+    flexDirection: "column"
+  },
+  card: {
+    borderRadius: Spacing.RADIUS
+  },
+  center: {
+    alignItems: "center"
+  },
+  middle: {
+    justifyContent: "center"
   },
   accent: { backgroundColor: Colors.ACCENT },
   primary: { backgroundColor: Colors.PRIMARY },

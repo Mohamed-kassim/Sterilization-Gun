@@ -13,7 +13,7 @@ export default class Input extends Component {
     return (
       <Block flex={false}>
         {label ? (
-          <Text gray={!error} success={correct} accent={error}>
+          <Text gray={!error} success={correct} error={error}>
             {label}
           </Text>
         ) : null}
@@ -70,13 +70,35 @@ export default class Input extends Component {
   }
 
   renderRight() {
-    const { rightLabel, rightStyle, onRightPress } = this.props;
+    const {
+      rightLabel,
+      rightStyle,
+      onRightPress,
+      accent,
+      primary,
+      secondary,
+      black,
+      white,
+      gray,
+      gray2,
+      gray3
+    } = this.props;
 
     if (!rightLabel) return null;
-
+    const iconRightLabel = [
+      styles.toggle,
+      accent && styles.accent,
+      primary && styles.primary,
+      secondary && styles.secondary,
+      black && styles.black,
+      white && styles.white,
+      gray && styles.gray,
+      gray2 && styles.gray2,
+      gray3 && styles.gray3
+    ];
     return (
       <Button
-        style={[styles.toggle, rightStyle]}
+        style={[iconRightLabel, rightStyle]}
         onPress={() => onRightPress && onRightPress()}
       >
         {rightLabel}
@@ -116,7 +138,7 @@ export default class Input extends Component {
     const inputStyles = [
       styles.input,
       { width: normal ? "60%" : full ? "95%" : null },
-      error && { borderColor: Colors.ACCENT },
+      error && { borderColor: Colors.ERROR },
       correct && { borderColor: Colors.SUCCESS },
       color && styles[color], // predefined styles colors for backgroundColor
       color && !styles[color] && { backgroundColor: color }, // custom backgroundColor
@@ -157,11 +179,13 @@ export default class Input extends Component {
           {this.renderToggle()}
           {this.renderRight()}
         </Block>
-        <Block margin={[Spacing.BASE, 0]}>
-          <Text small bold color={"red"}>
-            {errMsg}
-          </Text>
-        </Block>
+        {error ? (
+          <Block margin={[Spacing.BASE * 2, 0]}>
+            <Text small bold color={"red"}>
+              {errMsg}
+            </Text>
+          </Block>
+        ) : null}
       </Block>
     );
   }
@@ -184,8 +208,7 @@ const styles = StyleSheet.create({
     right: Spacing.BASE * 0.5
   },
   border: {
-    borderWidth: StyleSheet.hairlineWidth,
-    borderColor: Colors.BLACK
+    borderWidth: StyleSheet.hairlineWidth
   },
   rounded: {
     borderRadius: Spacing.RADIUS

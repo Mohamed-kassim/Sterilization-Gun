@@ -29,6 +29,7 @@ export default class Text extends Component {
       // colors
       color,
       accent,
+      error,
       primary,
       secondary,
       black,
@@ -69,6 +70,7 @@ export default class Text extends Component {
       color && !styles[color] && { color },
       // color shortcuts
       accent && styles.accent,
+      error && styles.error,
       primary && styles.primary,
       secondary && styles.secondary,
       black && styles.black,
@@ -115,6 +117,7 @@ const styles = StyleSheet.create({
   right: { textAlign: "right" },
   // colors
   accent: { color: Colors.ACCENT },
+  error: { color: Colors.ERROR },
   primary: { color: Colors.PRIMARY },
   secondary: { color: Colors.SECONDARY },
   black: { color: Colors.BLACK },
