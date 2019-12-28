@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/React-RCTBlob/React-RCTBlob-dummy.m \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/React-RCTBlob/React-RCTBlob-prefix.pch
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/React-RCTBlob/React-RCTBlob-dummy.m \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/React-RCTBlob/React-RCTBlob-prefix.pch

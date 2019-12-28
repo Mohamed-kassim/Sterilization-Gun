@@ -8,9 +8,13 @@
 		<data>
 		TneGhDkoD7Q01Gl8e5EScUBsgfM=
 		</data>
-		<key>Base.lproj/LaunchScreen.nib</key>
+		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<data>
-		Zh8KqZgqfC/hwpT9BzuOy/mI00Y=
+		j6JX0pjPOQjlgD03+09/G1vpQYk=
+		</data>
+		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
+		<data>
+		Dp6SLeAed/dGp2sXHYtdU+tNIvI=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -47,35 +51,6 @@
 		<key>Foundation.ttf</key>
 		<data>
 		SyvObHkkk6SlcWtv7C2+/olJLD8=
-		</data>
-		<key>Frameworks/XCTest.framework/Info.plist</key>
-		<data>
-		DQ4GPJ7FuM6H+FaCC/2wxhPSGCQ=
-		</data>
-		<key>Frameworks/XCTest.framework/XCTest</key>
-		<data>
-		HK6asLJ70IK7E4e83e8R1gxACHo=
-		</data>
-		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
-		<data>
-		/8LQToTPOL9FsEsYDaACQ21Day0=
-		</data>
-		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TuBj57ZP6zBqcL9HttO2Rucaw9E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/XCTest.framework/version.plist</key>
-		<data>
-		P6P66kW7+LvLIo4WHjXGltpT8CA=
-		</data>
-		<key>Frameworks/libXCTestBundleInject.dylib</key>
-		<data>
-		xKX69bDGMJa2TcU/BC9ypZ06rsI=
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
 		<data>
@@ -731,7 +706,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nIUe1cHXK0jyGb6RvYJFnGyp7Lg=
+		P6+5ao0eY/Ske/mbtSZgj6sF3zY=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -752,26 +727,6 @@
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
-		</data>
-		<key>PlugIns/DokanekTests.xctest.dSYM/Contents/Info.plist</key>
-		<data>
-		bKtO3svA9/PX5NiNXq8fxS5Sis4=
-		</data>
-		<key>PlugIns/DokanekTests.xctest.dSYM/Contents/Resources/DWARF/DokanekTests</key>
-		<data>
-		GYpjdokYoL982CV6OssmLNdkT/s=
-		</data>
-		<key>PlugIns/DokanekTests.xctest/DokanekTests</key>
-		<data>
-		y470SzIkF+6KtI+jTL2XqjAJq7s=
-		</data>
-		<key>PlugIns/DokanekTests.xctest/Info.plist</key>
-		<data>
-		8B090y7ooXNOLK4UPdtC0UKzrHU=
-		</data>
-		<key>PlugIns/DokanekTests.xctest/_CodeSignature/CodeResources</key>
-		<data>
-		62sz0AOtOlrV5ez/XuS+UVykQsU=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -795,15 +750,26 @@
 			eVXKFBJ7MEEsEU6xPP1wK12rJl/rGIDRaV1zyqgkzeE=
 			</data>
 		</dict>
-		<key>Base.lproj/LaunchScreen.nib</key>
+		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zh8KqZgqfC/hwpT9BzuOy/mI00Y=
+			j6JX0pjPOQjlgD03+09/G1vpQYk=
 			</data>
 			<key>hash2</key>
 			<data>
-			2ZjMvI3JlW0SDDjhsbL/3guzwFq8pzUcPKaT1WpQ1MM=
+			7wWo4HEu6QA6v9yCnm6Eq6Lv7JRylktjWMUf8U/F0nI=
+			</data>
+		</dict>
+		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Dp6SLeAed/dGp2sXHYtdU+tNIvI=
+			</data>
+			<key>hash2</key>
+			<data>
+			A8hQrOdvgqKxTuvVxDQsaMriGvCPKZs0P/+yn4wXCto=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -903,74 +869,6 @@
 			<key>hash2</key>
 			<data>
 			fh3QPdTOkLZYBSVUzXRZ3xZxZxc4mlUvpMbVal+JM+Y=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DQ4GPJ7FuM6H+FaCC/2wxhPSGCQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			VfVpYXVjG5OK2j8J39CP2mIMg1P5eFaYkRIJ/Hb2RSQ=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/XCTest</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HK6asLJ70IK7E4e83e8R1gxACHo=
-			</data>
-			<key>hash2</key>
-			<data>
-			olgg9NXiZ2M1ifvjBR8uTJxtXlM5EacLdDrNxfmImoY=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/8LQToTPOL9FsEsYDaACQ21Day0=
-			</data>
-			<key>hash2</key>
-			<data>
-			C7sJpbu4qpi8/rH5JYpdQYncotP69JQ9Fiu8jrHXYvU=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TuBj57ZP6zBqcL9HttO2Rucaw9E=
-			</data>
-			<key>hash2</key>
-			<data>
-			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/XCTest.framework/version.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			P6P66kW7+LvLIo4WHjXGltpT8CA=
-			</data>
-			<key>hash2</key>
-			<data>
-			2BV684CZjHtMZHxSiwC5qc/DGXv9WIOWUc9dEU/Q1pw=
-			</data>
-		</dict>
-		<key>Frameworks/libXCTestBundleInject.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xKX69bDGMJa2TcU/BC9ypZ06rsI=
-			</data>
-			<key>hash2</key>
-			<data>
-			jJ/zKe1SwWk9KkZ4MXV01NPW4QiHpU1aZhpfTDknkp0=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
@@ -2293,61 +2191,6 @@
 			ua3cE7d8ZyDNSM0Y8PSoyuWJsbkQNjDCSd5gq3Lf1r4=
 			</data>
 		</dict>
-		<key>PlugIns/DokanekTests.xctest.dSYM/Contents/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bKtO3svA9/PX5NiNXq8fxS5Sis4=
-			</data>
-			<key>hash2</key>
-			<data>
-			IIbt4au1zYuTVMigyEkQTm8eIqIAeaRN5xnF2u/AVqM=
-			</data>
-		</dict>
-		<key>PlugIns/DokanekTests.xctest.dSYM/Contents/Resources/DWARF/DokanekTests</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GYpjdokYoL982CV6OssmLNdkT/s=
-			</data>
-			<key>hash2</key>
-			<data>
-			gQg9JwMGPIrAf1zxZ5pPCv2JM7E2xZW8P6rmq0ahbF8=
-			</data>
-		</dict>
-		<key>PlugIns/DokanekTests.xctest/DokanekTests</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			y470SzIkF+6KtI+jTL2XqjAJq7s=
-			</data>
-			<key>hash2</key>
-			<data>
-			IzDMLlHLFi3Lv0sY39QiAFlsUz3v0Jq1flJNjd/6Q3M=
-			</data>
-		</dict>
-		<key>PlugIns/DokanekTests.xctest/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8B090y7ooXNOLK4UPdtC0UKzrHU=
-			</data>
-			<key>hash2</key>
-			<data>
-			cwwm8xHxOeLxajvcCt8YnB2n4lLIaT3ZwDtqrCXS0a4=
-			</data>
-		</dict>
-		<key>PlugIns/DokanekTests.xctest/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			62sz0AOtOlrV5ez/XuS+UVykQsU=
-			</data>
-			<key>hash2</key>
-			<data>
-			TmOdo5AnJ/zliNUMAbIFWsZBC2DCQUrPCggJV5isb8c=
-			</data>
-		</dict>
 		<key>SimpleLineIcons.ttf</key>
 		<dict>
 			<key>hash</key>
@@ -2373,7 +2216,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -2404,24 +2247,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -2457,13 +2288,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.m \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/React-RCTText/React-RCTText-prefix.pch \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.h
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.m \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/React-RCTText/React-RCTText-prefix.pch \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.h

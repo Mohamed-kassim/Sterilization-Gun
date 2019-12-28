@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/React-Core/React-Core-dummy.m \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/React-Core/React-Core-dummy.m \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch

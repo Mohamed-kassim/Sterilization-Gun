@@ -12,8 +12,8 @@ const HorizontalList = ({ data, renderMenuItem, menuStyles }) => {
       snapToAlignment="center"
       style={[styles.shadow, { overflow: "visible" }, menuStyles]}
       data={data}
-      keyExtractor={(item, index) => `${item.id}`}
-      renderItem={(item, index) => <Text>jhghjg</Text>}
+      keyExtractor={(item, index) => `${index}`}
+      renderItem={(item, index) => renderMenuItem(item, index)}
     />
   );
 };

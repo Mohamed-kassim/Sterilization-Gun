@@ -1,15 +1,17 @@
 dependencies: \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/Libraries/Text/TextInput/Multiline/RCTMultilineTextInputView.m \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/React-RCTText/React-RCTText-prefix.pch \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTMultilineTextInputView.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTBaseTextInputView.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTView.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTBackedTextInputDelegate.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTBackedTextInputViewProtocol.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTUITextView.h
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/Libraries/Text/TextInput/Multiline/RCTMultilineTextInputView.m \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/React-RCTText/React-RCTText-prefix.pch \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTMultilineTextInputView.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTBaseTextInputView.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTView.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTBackedTextInputDelegate.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTBackedTextInputViewProtocol.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTUITextView.h

@@ -5,19 +5,23 @@ import { TouchableOpacity } from "react-native";
 const Section = ({
   children,
   more,
+  Header,
   onPressMore,
   headerStyle,
-  sectionStyle
+  sectionStyle,
+  centerHeader,
+  centerMore,
+  headerPadding
 }) => {
   return (
     <Block style={sectionStyle} flex={false} column style={{ width: "100%" }}>
-      <Block row space={"between"} end padding={[Spacing.BASE, 0]}>
-        <Text style={headerStyle} h2 bold>
-          Header
+      <Block row space={"between"} end padding={[Spacing.BASE, headerPadding]}>
+        <Text center={centerHeader} style={headerStyle} h2 bold>
+          {Header ? Header : 'Header'}
         </Text>
         {more ? (
           <TouchableOpacity onPress={onPressMore} activeOpacity={0.5}>
-            <Text primary>More</Text>
+            <Text center={centerMore} primary>More</Text>
           </TouchableOpacity>
         ) : null}
       </Block>

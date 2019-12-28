@@ -1,16 +1,18 @@
 dependencies: \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/React/Modules/RCTEventEmitter.m \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/React/Modules/RCTEventEmitter.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTBridge.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTBridgeDelegate.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTJavaScriptLoader.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTBridgeModule.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTFrameUpdate.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTInvalidating.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTUtils.h
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/React/Modules/RCTEventEmitter.m \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/React/Modules/RCTEventEmitter.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTBridge.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTBridgeDelegate.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTJavaScriptLoader.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTBridgeModule.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTFrameUpdate.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTInvalidating.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/React/Base/RCTAssert.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/React/Base/RCTUtils.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/React/Base/RCTLog.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTUtils.h

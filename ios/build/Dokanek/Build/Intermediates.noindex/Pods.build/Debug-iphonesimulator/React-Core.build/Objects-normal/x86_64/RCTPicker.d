@@ -1,20 +1,22 @@
 dependencies: \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/React/Views/RCTPicker.m \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/React/Views/RCTPicker.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/UIView+React.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTComponent.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/React/Base/RCTConvert.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTAnimationType.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTBorderStyle.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTLog.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTUtils.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTPointerEvents.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTTextDecorationLineType.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/React/Base/RCTUtils.h
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/React/Views/RCTPicker.m \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/React/Views/RCTPicker.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/UIView+React.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTComponent.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/React/Base/RCTConvert.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTAnimationType.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTBorderStyle.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTLog.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTUtils.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTPointerEvents.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Private/React-Core/React/RCTTextDecorationLineType.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/React/Base/RCTUtils.h

@@ -13,47 +13,89 @@ const Card = props => {
     actions,
     color,
     style,
-    children
+    children,
+    vertical
   } = props;
 
   const cardStyles = [styles.card, cover && styles.cover, style];
   const coverImageStyle = [styles.coverImageStyle, cover && cover.style];
-  return (
-    <Block color={color || Colors.WHITE} style={cardStyles} {...props}>
-      <TouchableOpacity disabled={!touchable}>
-        {cover ? <Image style={coverImageStyle} uri={cover.uri} /> : null}
-        {title ? (
-          <Block padding={Spacing.PADDING_15 * 0.6}>
-            <Text h3 bold>
-              {title}
-            </Text>
-            {subtitle ? (
-              <Text title gray>
-                {subtitle}
+  if (vertical) {
+    return (
+      <Block flex={false} color={color || Colors.WHITE} style={cardStyles} {...props}>
+        <TouchableOpacity disabled={!touchable}>
+          {cover ? <Image style={coverImageStyle} uri={cover.uri} /> : null}
+          {title ? (
+            <Block padding={Spacing.PADDING_15 * 0.6}>
+              <Text h3 bold>
+                {title}
               </Text>
-            ) : null}
-          </Block>
-        ) : null}
-        <Block padding={[0, Spacing.PADDING_15 * 0.6]}>{children}</Block>
+              {subtitle ? (
+                <Text title gray>
+                  {subtitle}
+                </Text>
+              ) : null}
+            </Block>
+          ) : null}
+          <Block padding={[0, Spacing.PADDING_15 * 0.6]}>{children}</Block>
 
-        {actions ? (
-          <Block row space={"between"}>
-            {actions.map(action => {
-              console.log(action);
-              return (
-                <TouchableOpacity
-                  onPress={action.onPress}
-                  style={{ padding: Spacing.PADDING_15 * 0.6 }}
-                >
-                  {action.icon}
-                </TouchableOpacity>
-              );
-            })}
-          </Block>
-        ) : null}
+          {actions ? (
+            <Block row space={"between"}>
+              {actions.map(action => {
+                console.log(action);
+                return (
+                  <TouchableOpacity
+                    onPress={action.onPress}
+                    style={{ padding: Spacing.PADDING_15 * 0.6 }}
+                  >
+                    {action.icon}
+                  </TouchableOpacity>
+                );
+              })}
+            </Block>
+          ) : null}
+        </TouchableOpacity>
+      </Block>
+    );
+  }
+  else {
+    return (<Block flex={false} row color={color || Colors.WHITE} style={cardStyles} {...props}>
+      <TouchableOpacity style={{ flexDirection: 'row' }} disabled={!touchable}>
+        {cover ? <Image style={coverImageStyle} uri={cover.uri} /> : null}
+        <Block flex={.4} column>
+          {title ? (
+            <Block flex={false} padding={Spacing.PADDING_15 * 0.6}>
+              <Text h3 bold>
+                {title}
+              </Text>
+              {subtitle ? (
+                <Text title gray>
+                  {subtitle}
+                </Text>
+              ) : null}
+            </Block>
+          ) : null}
+          <Block flex={.6} padding={[0, Spacing.PADDING_15 * 0.6]}>{children}</Block>
+
+          {actions ? (
+            <Block flex={.2} row space={"between"}>
+              {actions.map(action => {
+                console.log(action);
+                return (
+                  <TouchableOpacity
+                    onPress={action.onPress}
+                    style={{ padding: Spacing.PADDING_15 * 0.6 }}
+                  >
+                    {action.icon}
+                  </TouchableOpacity>
+                );
+              })}
+            </Block>
+          ) : null}
+        </Block>
       </TouchableOpacity>
-    </Block>
-  );
+
+    </Block>)
+  }
 };
 
 export default Card;
@@ -61,7 +103,7 @@ export default Card;
 export const styles = StyleSheet.create({
   card: {
     borderRadius: Spacing.RADIUS,
-    marginBottom: Spacing.BASE
+    marginBottom: Spacing.BASE,
   },
   cover: {
     padding: 0,

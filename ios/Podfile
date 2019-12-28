@@ -39,20 +39,5 @@ target 'Dokanek' do
   pod 'GoogleMaps'
   pod 'Google-Maps-iOS-Utils'
   
-  target 'DokanekTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
   use_native_modules!
-end
-
-target 'Dokanek-tvOS' do
-  # Pods for Dokanek-tvOS
-
-  target 'Dokanek-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
