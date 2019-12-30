@@ -1,24 +1,22 @@
 dependencies: \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native-reanimated/ios/Transitioning/RCTConvert+REATransition.m \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/RNReanimated/RNReanimated-prefix.pch \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native-reanimated/ios/Transitioning/RCTConvert+REATransition.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native-reanimated/ios/Transitioning/REATransition.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTView.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native-reanimated/ios/Transitioning/REATransitionAnimation.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native-reanimated/ios/Transitioning/REATransitionValues.h
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native-reanimated/ios/Transitioning/RCTConvert+REATransition.m \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/RNReanimated/RNReanimated-prefix.pch \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native-reanimated/ios/Transitioning/RCTConvert+REATransition.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native-reanimated/ios/Transitioning/REATransition.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTView.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native-reanimated/ios/Transitioning/REATransitionAnimation.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native-reanimated/ios/Transitioning/REATransitionValues.h

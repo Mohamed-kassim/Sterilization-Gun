@@ -1,3 +1,3 @@
 dependencies: \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/RNGestureHandler/RNGestureHandler-dummy.m \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/RNGestureHandler/RNGestureHandler-prefix.pch
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/RNGestureHandler/RNGestureHandler-dummy.m \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/RNGestureHandler/RNGestureHandler-prefix.pch

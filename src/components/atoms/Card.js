@@ -14,87 +14,125 @@ const Card = props => {
     color,
     style,
     children,
-    vertical
+    horizontal,
+    contentContainerStyles
   } = props;
 
   const cardStyles = [styles.card, cover && styles.cover, style];
   const coverImageStyle = [styles.coverImageStyle, cover && cover.style];
-  if (vertical) {
+  if (!horizontal) {
     return (
-      <Block flex={false} color={color || Colors.WHITE} style={cardStyles} {...props}>
-        <TouchableOpacity disabled={!touchable}>
-          {cover ? <Image style={coverImageStyle} uri={cover.uri} /> : null}
-          {title ? (
-            <Block padding={Spacing.PADDING_15 * 0.6}>
-              <Text h3 bold>
-                {title}
-              </Text>
-              {subtitle ? (
-                <Text title gray>
-                  {subtitle}
+      <Block column center>
+        <Block
+          row
+          flex={false}
+          color={color || Colors.WHITE}
+          style={cardStyles}
+          {...props}
+        >
+          <TouchableOpacity
+            style={{
+              flexDirection: "column",
+              justifyContent: "center",
+              flex: 0
+            }}
+            disabled={!touchable}
+          >
+            {cover ? <Image style={coverImageStyle} uri={cover.uri} /> : null}
+            {title ? (
+              <Block flex={false} padding={Spacing.PADDING_15 * 0.6}>
+                <Text h3 bold>
+                  {title}
                 </Text>
-              ) : null}
+                {subtitle ? (
+                  <Text title gray>
+                    {subtitle}
+                  </Text>
+                ) : null}
+              </Block>
+            ) : null}
+            <Block
+              style={contentContainerStyles}
+              flex={false}
+              padding={[0, Spacing.PADDING_15 * 0.6]}
+            >
+              {children}
             </Block>
-          ) : null}
-          <Block padding={[0, Spacing.PADDING_15 * 0.6]}>{children}</Block>
 
-          {actions ? (
-            <Block row space={"between"}>
-              {actions.map(action => {
-                console.log(action);
-                return (
-                  <TouchableOpacity
-                    onPress={action.onPress}
-                    style={{ padding: Spacing.PADDING_15 * 0.6 }}
-                  >
-                    {action.icon}
-                  </TouchableOpacity>
-                );
-              })}
+            {actions ? (
+              <Block flex={false} row space={"between"}>
+                {actions.map(action => {
+                  console.log(action);
+                  return (
+                    <TouchableOpacity
+                      onPress={action.onPress}
+                      style={{ padding: Spacing.PADDING_15 * 0.6 }}
+                    >
+                      {action.icon}
+                    </TouchableOpacity>
+                  );
+                })}
+              </Block>
+            ) : null}
+          </TouchableOpacity>
+        </Block>
+      </Block>
+    );
+  } else {
+    return (
+      <Block
+        flex={false}
+        column
+        color={color || Colors.WHITE}
+        style={cardStyles}
+        {...props}
+      >
+        <TouchableOpacity
+          style={{ flexDirection: "row" }}
+          disabled={!touchable}
+        >
+          {cover ? <Image style={coverImageStyle} uri={cover.uri} /> : null}
+          <Block space={"between"} column>
+            {title ? (
+              <Block flex={false} padding={Spacing.PADDING_15 * 0.6}>
+                <Text h3 bold>
+                  {title}
+                </Text>
+                {subtitle ? (
+                  <Text title gray>
+                    {subtitle}
+                  </Text>
+                ) : null}
+              </Block>
+            ) : null}
+            <Block
+              style={[contentContainerStyles]}
+              color={"orange"}
+              flex={false}
+              padding={[0, Spacing.PADDING_15 * 0.6]}
+            >
+              {children}
             </Block>
-          ) : null}
+
+            {actions ? (
+              <Block flex={false} row space={"between"}>
+                {actions.map(action => {
+                  console.log(action);
+                  return (
+                    <TouchableOpacity
+                      onPress={action.onPress}
+                      style={{ padding: Spacing.PADDING_15 * 0.6 }}
+                    >
+                      {action.icon}
+                    </TouchableOpacity>
+                  );
+                })}
+              </Block>
+            ) : null}
+          </Block>
         </TouchableOpacity>
       </Block>
     );
-  }
-  else {
-    return (<Block flex={false} row color={color || Colors.WHITE} style={cardStyles} {...props}>
-      <TouchableOpacity style={{ flexDirection: 'row' }} disabled={!touchable}>
-        {cover ? <Image style={coverImageStyle} uri={cover.uri} /> : null}
-        <Block flex={.4} column>
-          {title ? (
-            <Block flex={false} padding={Spacing.PADDING_15 * 0.6}>
-              <Text h3 bold>
-                {title}
-              </Text>
-              {subtitle ? (
-                <Text title gray>
-                  {subtitle}
-                </Text>
-              ) : null}
-            </Block>
-          ) : null}
-          <Block flex={.6} padding={[0, Spacing.PADDING_15 * 0.6]}>{children}</Block>
-
-          {actions ? (
-            <Block flex={.2} row space={"between"}>
-              {actions.map(action => {
-                console.log(action);
-                return (
-                  <TouchableOpacity
-                    onPress={action.onPress}
-                    style={{ padding: Spacing.PADDING_15 * 0.6 }}
-                  >
-                    {action.icon}
-                  </TouchableOpacity>
-                );
-              })}
-            </Block>
-          ) : null}
-        </Block>
-      </TouchableOpacity>
-
-    </Block>)
   }
 };
 
@@ -103,7 +141,7 @@ export default Card;
 export const styles = StyleSheet.create({
   card: {
     borderRadius: Spacing.RADIUS,
-    marginBottom: Spacing.BASE,
+    marginBottom: Spacing.BASE
   },
   cover: {
     padding: 0,

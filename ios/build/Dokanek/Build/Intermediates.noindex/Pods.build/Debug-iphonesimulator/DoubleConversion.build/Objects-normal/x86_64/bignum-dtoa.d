@@ -1,8 +1,8 @@
 dependencies: \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/DoubleConversion/double-conversion/bignum-dtoa.cc \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/DoubleConversion/DoubleConversion-prefix.pch \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/DoubleConversion/double-conversion/bignum-dtoa.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/DoubleConversion/double-conversion/utils.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/DoubleConversion/double-conversion/bignum.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/DoubleConversion/double-conversion/ieee.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/DoubleConversion/double-conversion/diy-fp.h
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/DoubleConversion/double-conversion/bignum-dtoa.cc \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/DoubleConversion/DoubleConversion-prefix.pch \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/DoubleConversion/double-conversion/bignum-dtoa.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/DoubleConversion/double-conversion/utils.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/DoubleConversion/double-conversion/bignum.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/DoubleConversion/double-conversion/ieee.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/DoubleConversion/double-conversion/diy-fp.h

@@ -39,22 +39,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Dokanek-tvOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Dokanek-tvOSTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Dokanek.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-DokanekTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

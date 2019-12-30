@@ -1,16 +1,16 @@
 dependencies: \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/log.cpp \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/Yoga/Yoga-prefix.pch \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/log.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGValue.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGConfig.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/CompactValue.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/Bitfield.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGLayout.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGFloatOptional.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGStyle.h
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/log.cpp \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/Yoga/Yoga-prefix.pch \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/log.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGValue.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGConfig.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/CompactValue.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/Bitfield.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGLayout.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGFloatOptional.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/ReactCommon/yoga/yoga/YGStyle.h

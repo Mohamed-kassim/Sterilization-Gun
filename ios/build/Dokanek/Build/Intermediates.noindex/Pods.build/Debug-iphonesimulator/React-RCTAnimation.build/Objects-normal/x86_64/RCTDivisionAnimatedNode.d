@@ -1,12 +1,10 @@
 dependencies: \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTDivisionAnimatedNode.m \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Target\ Support\ Files/React-RCTAnimation/React-RCTAnimation-prefix.pch \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTDivisionAnimatedNode.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTValueAnimatedNode.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTAnimatedNode.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
-  /Volumes/Data/work\ /HayaSolutions/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTDivisionAnimatedNode.m \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/React-RCTAnimation/React-RCTAnimation-prefix.pch \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTDivisionAnimatedNode.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTValueAnimatedNode.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTAnimatedNode.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h

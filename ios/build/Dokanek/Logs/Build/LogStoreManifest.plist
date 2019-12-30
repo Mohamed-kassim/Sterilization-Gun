@@ -3,8 +3,38 @@
 <plist version="1.0">
 <dict>
 	<key>logFormatVersion</key>
-	<integer>10</integer>
+	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>27D53538-CE23-4112-A445-2E55C98C33FA</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>27D53538-CE23-4112-A445-2E55C98C33FA.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Dokanek project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Dokanek</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace Dokanek with scheme Dokanek and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>599320326.30185103</real>
+			<key>timeStoppedRecording</key>
+			<real>599320330.98950303</real>
+			<key>title</key>
+			<string>Building workspace Dokanek with scheme Dokanek and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>27D53538-CE23-4112-A445-2E55C98C33FA</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

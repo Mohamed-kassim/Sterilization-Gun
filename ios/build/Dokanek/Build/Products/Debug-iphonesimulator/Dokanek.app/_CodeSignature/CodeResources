@@ -8,13 +8,9 @@
 		<data>
 		TneGhDkoD7Q01Gl8e5EScUBsgfM=
 		</data>
-		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
+		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		j6JX0pjPOQjlgD03+09/G1vpQYk=
-		</data>
-		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
-		<data>
-		Dp6SLeAed/dGp2sXHYtdU+tNIvI=
+		42gNy9aiVFjo6sxg8Z4oZc798Ds=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -706,7 +702,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		P6+5ao0eY/Ske/mbtSZgj6sF3zY=
+		nIUe1cHXK0jyGb6RvYJFnGyp7Lg=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -750,26 +746,15 @@
 			eVXKFBJ7MEEsEU6xPP1wK12rJl/rGIDRaV1zyqgkzeE=
 			</data>
 		</dict>
-		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
+		<key>Base.lproj/LaunchScreen.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j6JX0pjPOQjlgD03+09/G1vpQYk=
+			42gNy9aiVFjo6sxg8Z4oZc798Ds=
 			</data>
 			<key>hash2</key>
 			<data>
-			7wWo4HEu6QA6v9yCnm6Eq6Lv7JRylktjWMUf8U/F0nI=
-			</data>
-		</dict>
-		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Dp6SLeAed/dGp2sXHYtdU+tNIvI=
-			</data>
-			<key>hash2</key>
-			<data>
-			A8hQrOdvgqKxTuvVxDQsaMriGvCPKZs0P/+yn4wXCto=
+			hWV6md2/80hm+eejsafEOx4TNOdhMHcbBFsfmjLWF3g=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -2216,7 +2201,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^.*</key>
+		<key>^</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -2247,12 +2232,24 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
+		<key>^</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -2288,6 +2285,13 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
