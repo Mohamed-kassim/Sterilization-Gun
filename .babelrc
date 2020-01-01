@@ -19,6 +19,7 @@
           "_utils": "./src/utils",
           "_bootstrap": "./src/bootstrap",
           "_globalState": "./src/bootstrap/globalState",
+          "_mocks": "./src/constants/mocks",
           "_i18n": "./src/utils/i18n"
         }
       }

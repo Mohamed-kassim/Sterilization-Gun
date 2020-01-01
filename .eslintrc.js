@@ -19,7 +19,8 @@ module.exports = {
           _utils: "./src/utils",
           _bootstrap: "./src/bootstrap",
           _globalState: "./src/bootstrap/globalState",
-          _i18n: "./src/utils/i18n"
+          _i18n: "./src/utils/i18n",
+          _mocks: "./src/constants/mocks"
         }
       }
     }

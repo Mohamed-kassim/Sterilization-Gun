@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, TextInput, Image } from "react-native";
+import { StyleSheet, TextInput, Image, TouchableOpacity } from "react-native";
 import { Block, Button, Text } from "_atoms";
 import { Spacing, Colors, Typography } from "_styles";
 import Icon from "react-native-vector-icons/FontAwesome";
@@ -105,6 +105,42 @@ export default class Input extends Component {
       </Button>
     );
   }
+  renderRightValue() {
+    const {
+      rightLabel,
+      rightStyle,
+      onRightPress,
+      accent,
+      primary,
+      secondary,
+      black,
+      white,
+      gray,
+      gray2,
+      gray3
+    } = this.props;
+
+    if (!rightLabel) return null;
+    const iconRightLabel = [
+      styles.toggle,
+      accent && styles.accent,
+      primary && styles.primary,
+      secondary && styles.secondary,
+      black && styles.black,
+      white && styles.white,
+      gray && styles.gray,
+      gray2 && styles.gray2,
+      gray3 && styles.gray3
+    ];
+    return (
+      <Button
+        style={[iconRightLabel, rightStyle]}
+        onPress={() => onRightPress && onRightPress()}
+      >
+        {rightLabel}
+      </Button>
+    );
+  }
 
   render() {
     const {
@@ -129,6 +165,9 @@ export default class Input extends Component {
       full,
       rounded,
       errMsg,
+      RightValue,
+      RightValueText,
+      onRightValuePress,
       ...props
     } = this.props;
 
@@ -138,6 +177,7 @@ export default class Input extends Component {
     const inputStyles = [
       styles.input,
       { width: normal ? "60%" : full ? "95%" : null },
+      { flex: 1 },
       error && { borderColor: Colors.ERROR },
       correct && { borderColor: Colors.SUCCESS },
       color && styles[color], // predefined styles colors for backgroundColor
@@ -151,10 +191,19 @@ export default class Input extends Component {
       gray2 && styles.gray2,
       gray3 && styles.gray3,
       border && styles.border,
-      rounded && styles.rounded,
+      rounded && RightValue && styles.roundedLeft,
+      rounded && !RightValue && styles.rounded,
       style
     ];
-
+    const roundedRightStyle =
+      RightValue && rounded
+        ? {
+            borderWidth: 0,
+            borderBottomRightRadius: Spacing.RADIUS,
+            borderTopRightRadius: Spacing.RADIUS
+          }
+        : null;
+    console.log(roundedRightStyle);
     const inputType = email
       ? "email-address"
       : number
@@ -164,28 +213,50 @@ export default class Input extends Component {
       : "default";
 
     return (
-      <Block>
-        <Block margin={[Spacing.BASE, 0]}>
-          {this.renderLabel()}
-          <TextInput
-            style={inputStyles}
-            secureTextEntry={isSecure}
-            autoComplete="off"
-            autoCapitalize="none"
-            autoCorrect={false}
-            keyboardType={inputType}
-            {...props}
-          />
-          {this.renderToggle()}
-          {this.renderRight()}
-        </Block>
-        {error ? (
-          <Block margin={[Spacing.BASE * 2, 0]}>
-            <Text small bold color={"red"}>
-              {errMsg}
-            </Text>
+      <Block row>
+        <Block>
+          <Block margin={[Spacing.BASE, 0]}>
+            {this.renderLabel()}
+            <Block row>
+              <Block row>
+                <TextInput
+                  style={inputStyles}
+                  secureTextEntry={isSecure}
+                  autoComplete="off"
+                  autoCapitalize="none"
+                  autoCorrect={false}
+                  keyboardType={inputType}
+                  {...props}
+                />
+                {this.renderToggle()}
+                {this.renderRight()}
+              </Block>
+              {RightValue ? (
+                <Block
+                  style={[
+                    { paddingHorizontal: Spacing.PADDING_15 },
+                    roundedRightStyle
+                  ]}
+                  primary
+                  center
+                  middle
+                  flex={false}
+                >
+                  <TouchableOpacity onPress={onRightValuePress}>
+                    <Text>{RightValueText}</Text>
+                  </TouchableOpacity>
+                </Block>
+              ) : null}
+            </Block>
           </Block>
-        ) : null}
+          {error ? (
+            <Block padding={[Spacing.BASE * 0.3, 0]}>
+              <Text size={Spacing.BASE * 0.7} bold color={"red"}>
+                {errMsg}
+              </Text>
+            </Block>
+          ) : null}
+        </Block>
       </Block>
     );
   }
@@ -204,7 +275,7 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
     width: Spacing.BASE * 2,
     height: Spacing.BASE * 2,
-    top: Spacing.BASE * 0.8,
+    top: -Spacing.BASE * 0.2,
     right: Spacing.BASE * 0.5
   },
   border: {
@@ -212,6 +283,10 @@ const styles = StyleSheet.create({
   },
   rounded: {
     borderRadius: Spacing.RADIUS
+  },
+  roundedLeft: {
+    borderBottomLeftRadius: Spacing.RADIUS,
+    borderTopLeftRadius: Spacing.RADIUS
   },
   accent: { backgroundColor: Colors.ACCENT },
   primary: { backgroundColor: Colors.PRIMARY },

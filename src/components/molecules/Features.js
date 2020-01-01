@@ -8,7 +8,7 @@ const Features = ({ images }) => {
   const renderItem = (item, index) => (
     <Card
       //   shadow
-      style={{ width: width - 20, padding: 20 }}
+      style={{ padding: 20 }}
       touchable
       cover={{
         uri: item,

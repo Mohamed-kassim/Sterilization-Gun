@@ -1,5 +1,10 @@
-import React from "react";
-import { SafeAreaView, TouchableHighlight, ScrollView } from "react-native";
+import React, { useState } from "react";
+import {
+  SafeAreaView,
+  TouchableHighlight,
+  ScrollView,
+  Picker
+} from "react-native";
 import AsyncStorage from "@react-native-community/async-storage";
 import Map from "../about/map";
 import { t } from "_i18n";
@@ -18,7 +23,11 @@ import {
   Section,
   HorizontalList
 } from "_atoms";
-import { Slider, Features } from "_molecules";
+import { Slider, Features, FieldInput } from "_molecules";
+
+import { SearchBox } from "_organisms";
+import { Colors, Spacing } from "_styles";
+import { SignUpFields } from "_mocks";
 const HomeScreen = ({ navigation }) => {
   const menuItem = ({ item, index }) => {
     return (
@@ -45,7 +54,16 @@ const HomeScreen = ({ navigation }) => {
             <Text>Go to about</Text>
           </TouchableHighlight>
         </Block>
-
+        <Block padding={[Spacing.PADDING_15, Spacing.PADDING_15]}>
+          <SearchBox />
+        </Block>
+        <Block padding={[Spacing.PADDING_15, Spacing.PADDING_15]}>
+          <FieldInput
+            errMsg={"Error in this field"}
+            icon={SignUpFields[0].icon}
+            placeholder={SignUpFields[0].name}
+          />
+        </Block>
         <Card
           touchable
           cover={{
