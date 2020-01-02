@@ -1,21 +1,32 @@
-import React, { useEffect } from "react";
-import { View, Text } from "react-native";
+import React, { useEffect, useState } from "react";
+import { Block } from "_atoms";
 import { initializeApp, cleanApp } from "_bootstrap/initialize";
+import { LoadingAnimation } from "_molecules";
 import { t } from "_i18n";
 const Initialization = ({ navigation }) => {
+  const [isLoadingComplete, setIsLoadingComplete] = useState(false);
   useEffect(() => {
     initializeApp();
     setTimeout(() => {
-      navigation.navigate("Home");
+      setIsLoadingComplete(true);
     }, 1500);
     return () => {
       cleanApp();
     };
   }, []);
+
+  const onLoadingFinish = () => {
+    console.log("on loading finish", isLoadingComplete);
+    navigation.navigate("Language");
+  };
   return (
-    <View>
-      <Text>{t("hello")}</Text>
-    </View>
+    <Block>
+      <LoadingAnimation
+        img={require("../../assets/images/logo.png")}
+        Loaded={isLoadingComplete}
+        onLoadingFinish={onLoadingFinish}
+      />
+    </Block>
   );
 };
 
