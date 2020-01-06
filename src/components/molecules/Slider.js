@@ -65,7 +65,7 @@ const Slider = ({ images, autoScrolled, imageStyle }) => {
                             key={`${index}-${img}`}
                             source={{ uri: img }}
                             resizeMode='cover'
-                            style={[{ width, height: width }, imageStyle]}
+                            style={[{ width, height: width*.8 }, imageStyle]}
                         />
                     )
                 }

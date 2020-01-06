@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/Data/work /HayaSolutions/master/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "/Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/0fbbe0476c90bf81d1cab887004659b3/res/values-fr-rCA/values-fr-rCA.xml",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/56d306c3c641e111d38dd9a25814e15e/res/values-fr-rCA/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "219",
-                        "endOffsets": "470"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4076",
-                        "endColumns": "219",
-                        "endOffsets": "4291"
-                    }
-                },
-                {
-                    "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/bfa1a7e9f4161796c4634874030b820b/res/values-fr-rCA/values.xml",
+                    "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/534c185fd692ab7ebd17ced287700561/res/values-fr-rCA/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,6 +35,23 @@
                         "startOffsets": "2855,2963,3175,3307,3418,3648,3783,3934,4296,4550,4664,4880,5018,5237,5446,5549,5643",
                         "endColumns": "107,211,131,110,229,134,150,141,253,113,215,137,218,208,102,93,112",
                         "endOffsets": "2958,3170,3302,3413,3643,3778,3929,4071,4545,4659,4875,5013,5232,5441,5544,5638,5751"
+                    }
+                },
+                {
+                    "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/bb8bdb9320469daf4ac34b81f316afab/res/values-fr-rCA/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "219",
+                        "endOffsets": "470"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4076",
+                        "endColumns": "219",
+                        "endOffsets": "4291"
                     }
                 },
                 {

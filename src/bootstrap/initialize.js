@@ -5,18 +5,19 @@ import { requestLocationPermission } from "_utils";
 // const [, updateState] = useState();
 // const forceUpdate = useCallback(() => updateState({}), []);
 
-const initializeApp = () => {
-  console.log("iam here");
-  setI18nConfig();
-  RNLocalize.addEventListener("change", this.handleLocalizationChange);
-  requestLocationPermission();
-};
-
-const cleanApp = () => {
-  RNLocalize.removeEventListener("change", this.handleLocalizationChange);
-};
 handleLocalizationChange = () => {
   setI18nConfig();
   // forceUpdate();
 };
+const initializeApp = () => {
+  console.log("1 init app");
+  setI18nConfig();
+  RNLocalize.addEventListener("change", handleLocalizationChange);
+  requestLocationPermission();
+};
+
+const cleanApp = () => {
+  RNLocalize.removeEventListener("change", handleLocalizationChange);
+};
+
 export { initializeApp, cleanApp };

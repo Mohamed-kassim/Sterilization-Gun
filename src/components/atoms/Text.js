@@ -129,9 +129,9 @@ const styles = StyleSheet.create({
   h1: { fontSize: Typography.FONT_SIZE_H1 },
   h2: { fontSize: Typography.FONT_SIZE_H2 },
   h3: { fontSize: Typography.FONT_SIZE_H3 },
-  title: { fontSize: Typography.TITLE },
-  body: { fontSize: Typography.BODY },
-  caption: { fontSize: Typography.CAPTION },
-  small: { fontSize: Typography.SMALL },
+  title: { fontSize: Typography.FONT_SIZE_HEADER },
+  body: { fontSize: Typography.FONT_SIZE_BODY },
+  caption: { fontSize: Typography.FONT_SIZE_CAPTION },
+  small: { fontSize: Typography.FONT_SIZE_SMALL },
   underlined: { textDecorationLine: "underline" }
 });

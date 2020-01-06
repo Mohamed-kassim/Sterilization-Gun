@@ -15,13 +15,14 @@ const t = memoize(
 );
 
 const setI18nConfig = async () => {
+  console.log('2 i18n ')
   // fallback if no available language fits
   const fallback = { languageTag: "en", isRTL: false };
   let language = await AsyncStorage.getItem("language");
-  language = JSON.parse(language);
-  console.log(language);
+  // language = JSON.parse(language);
+  console.log('the lang is', language);
   const { languageTag, isRTL } =
-    language ||
+    // language ||
     RNLocalize.findBestAvailableLanguage(Object.keys(translationGetters)) ||
     fallback;
 

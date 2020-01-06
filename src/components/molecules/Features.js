@@ -4,18 +4,18 @@ import { Block, Card, Image } from "_atoms";
 import { Colors, Spacing, Mixins } from "_styles";
 const { width, height } = Dimensions.get("window");
 const scrollX = new Animated.Value(0);
-const Features = ({ images }) => {
+const Features = ({ items }) => {
   const renderItem = (item, index) => (
     <Card
-      //   shadow
-      style={{ padding: 20 }}
+      style={{ paddingHorizontal: Spacing.PADDING_15*2, borderRadius: Spacing.RADIUS}}
       touchable
+      onPress={ item.onPress}
       cover={{
-        uri: item,
+        uri: item.image,
         style: {
-          width: width - 40,
-          height: width
-          //   shadow: Mixins.boxShadow("black")
+          width: width - Spacing.PADDING_15*4,
+          height: width - Spacing.PADDING_15*4,
+          borderRadius: Spacing.RADIUS
         }
       }}
     />
@@ -31,7 +31,7 @@ const Features = ({ images }) => {
         scrollEventThrottle={16}
         snapToAlignment="center"
         style={{ overflow: "visible" }}
-        data={images}
+        data={items}
         keyExtractor={(item, index) => `${item.id}`}
         onScroll={Animated.event([
           { nativeEvent: { contentOffset: { x: scrollX } } }

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/Data/work /HayaSolutions/master/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
+            "outputFile": "/Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/0fbbe0476c90bf81d1cab887004659b3/res/values-fr/values-fr.xml",
@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/56d306c3c641e111d38dd9a25814e15e/res/values-fr/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "223",
-                        "endOffsets": "470"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4068",
-                        "endColumns": "223",
-                        "endOffsets": "4287"
-                    }
-                },
-                {
-                    "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/bfa1a7e9f4161796c4634874030b820b/res/values-fr/values.xml",
+                    "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/534c185fd692ab7ebd17ced287700561/res/values-fr/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -69,6 +52,23 @@
                         "startOffsets": "2847,2955,3167,3299,3410,3640,3775,3926,4292,4529,4643,4859,4997,5216,5425,5528,5625",
                         "endColumns": "107,211,131,110,229,134,150,141,236,113,215,137,218,208,102,96,112",
                         "endOffsets": "2950,3162,3294,3405,3635,3770,3921,4063,4524,4638,4854,4992,5211,5420,5523,5620,5733"
+                    }
+                },
+                {
+                    "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/bb8bdb9320469daf4ac34b81f316afab/res/values-fr/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "223",
+                        "endOffsets": "470"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4068",
+                        "endColumns": "223",
+                        "endOffsets": "4287"
                     }
                 }
             ]

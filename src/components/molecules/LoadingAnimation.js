@@ -10,10 +10,10 @@ import {
 import { Spacing, Colors } from "_styles";
 const { width, height } = Dimensions.get("window");
 export default LoadingAnimationComponent = props => {
+
   const [animationValue, setAnimatedValue] = useState(new Animated.Value(0));
   const [animationCompleted, setAnimationCompleted] = useState(false);
   const [Loaded, setLoaded] = useState(false);
-  console.log("the props is ", props);
 
   const triggerAnimation = () => {
     Animated.timing(animationValue, {
@@ -30,11 +30,8 @@ export default LoadingAnimationComponent = props => {
   };
 
   useEffect(() => {
-    console.log("the value of the prop is", props.Loaded);
-
     if (props.Loaded !== Loaded) {
       setLoaded(props.Loaded);
-      console.log("we are here");
       triggerAnimation();
     }
   }, [props.Loaded]);

@@ -15,7 +15,8 @@ const Card = props => {
     style,
     children,
     horizontal,
-    contentContainerStyles
+    contentContainerStyles,
+    onPress=null
   } = props;
 
   const cardStyles = [styles.card, cover && styles.cover, style];
@@ -36,12 +37,13 @@ const Card = props => {
               justifyContent: "center",
               flex: 0
             }}
+            onPress={onPress}
             disabled={!touchable}
           >
             {cover ? <Image style={coverImageStyle} uri={cover.uri} /> : null}
             {title ? (
               <Block flex={false} padding={Spacing.PADDING_15 * 0.6}>
-                <Text h3 bold>
+                <Text title bold>
                   {title}
                 </Text>
                 {subtitle ? (
@@ -90,12 +92,13 @@ const Card = props => {
         <TouchableOpacity
           style={{ flexDirection: "row" }}
           disabled={!touchable}
+          onPress={onPress}
         >
           {cover ? <Image style={coverImageStyle} uri={cover.uri} /> : null}
           <Block space={"between"} column>
             {title ? (
               <Block flex={false} padding={Spacing.PADDING_15 * 0.6}>
-                <Text h3 bold>
+                <Text size={Spacing.BASE} bold>
                   {title}
                 </Text>
                 {subtitle ? (
@@ -152,5 +155,6 @@ export const styles = StyleSheet.create({
     height: Spacing.BASE * 13,
     borderTopRightRadius: Spacing.RADIUS,
     borderTopLeftRadius: Spacing.RADIUS
+    
   }
 });

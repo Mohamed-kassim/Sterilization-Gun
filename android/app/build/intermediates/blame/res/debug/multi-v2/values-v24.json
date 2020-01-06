@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/Data/work /HayaSolutions/master/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/0fbbe0476c90bf81d1cab887004659b3/res/values-v24/values-v24.xml",

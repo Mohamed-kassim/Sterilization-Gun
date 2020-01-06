@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/Data/work /HayaSolutions/master/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "/Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/99a9c9cd9b8e9e83740ca3a6792a3249/res/values-zh-rHK/values-zh-rHK.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/bfa1a7e9f4161796c4634874030b820b/res/values-zh-rHK/values.xml",
+                    "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/534c185fd692ab7ebd17ced287700561/res/values-zh-rHK/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/56d306c3c641e111d38dd9a25814e15e/res/values-zh-rHK/values.xml",
+                    "source": "/Users/mohamedkassim/.gradle/caches/transforms-2/files-2.1/bb8bdb9320469daf4ac34b81f316afab/res/values-zh-rHK/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

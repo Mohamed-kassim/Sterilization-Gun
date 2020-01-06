@@ -1,4 +1,4 @@
-#Fri Dec 27 13:39:12 PST 2019
-base.0=/Volumes/Data/work /HayaSolutions/master/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Mon Jan 06 13:48:41 PST 2020
+base.0=/Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

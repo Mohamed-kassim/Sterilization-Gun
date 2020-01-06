@@ -8,13 +8,14 @@ export default class Divider extends Component {
     const { color, style, width, height, ...props } = this.props;
     const custom = {
       width: width || "85%",
-      height: height || 0
+      height: height || Spacing.BASE*.05
     };
 
     const dividerStyles = [styles.divider, style, custom];
 
     return (
       <Block
+      
         flex={false}
         color={color || Colors.GRAY_MEDIUM}
         style={dividerStyles}
@@ -26,7 +27,7 @@ export default class Divider extends Component {
 
 export const styles = StyleSheet.create({
   divider: {
-    margin: Spacing.BASE * 2,
+    margin: Spacing.BASE ,
     borderBottomColor: Colors.GRAY_MEDIUM,
     borderBottomWidth: StyleSheet.hairlineWidth
   }
