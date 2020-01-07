@@ -15,7 +15,7 @@ const Section = ({
 }) => {
   return (
     <Block style={sectionStyle} flex={false} column style={{ width: "100%" }} >
-      <Block row space={"between"} end padding={[0,0, headerPadding,headerPadding]}>
+      <Block row space={"between"} padding={[0,0, headerPadding,headerPadding]}>
         <Block center={centerHeader}>
         <Text center={centerHeader} style={headerStyle} title bold>
           {Header ? Header : 'Header'}

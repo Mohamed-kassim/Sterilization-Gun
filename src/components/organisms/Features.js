@@ -16,7 +16,6 @@ const Features = ({navigation}) => {
             ]}
           />
         </Block>
-        
       </Section>
     )
 }

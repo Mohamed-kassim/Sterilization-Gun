@@ -7,14 +7,13 @@ const HorizontalTile = ({item, navigation}) => {
         return (
           <Card
           touchable
-            style={{marginRight: Spacing.PADDING_15,   borderRadius: Spacing.RADIUS}}
+            style={{marginHorizontal: Spacing.PADDING_15*.5,marginBottom:Spacing.PADDING_15,   borderRadius: Spacing.RADIUS}}
             shadow
             cover={{
               uri: item.image_url,
               style: {
                 width: Spacing.BASE*8,
                 height: Spacing.BASE*9.5,
-                
               }
             }}
           onPress={()=> navigation.navigate('ProductDetails')}

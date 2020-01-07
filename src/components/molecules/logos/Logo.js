@@ -1,7 +1,8 @@
 import React from "react";
 import { Image } from "_atoms";
 import logo from "../../../assets/images/logo.png";
-const Logo = ({ size = 140, }) => {
+import { Spacing } from "_styles";
+const Logo = ({ size = Spacing.BASE * 6, }) => {
   return (
     <Image
       style={{

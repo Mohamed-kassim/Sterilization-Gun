@@ -5,12 +5,12 @@ const HorizontalList = ({ data, renderMenuItem, menuStyles }) => {
   return (
     <FlatList
       horizontal
-      pagingEnabled
+      // pagingEnabled
       scrollEnabled
       showsHorizontalScrollIndicator={false}
       scrollEventThrottle={16}
       snapToAlignment="center"
-      style={[styles.shadow, { overflow: "visible" }, menuStyles]}
+      style={[styles.shadow, menuStyles]}
       data={data}
       keyExtractor={(item, index) => `${index}`}
       renderItem={(item, index) => renderMenuItem(item, index)}
@@ -19,14 +19,15 @@ const HorizontalList = ({ data, renderMenuItem, menuStyles }) => {
 };
 const styles = StyleSheet.create({
   shadow: {
-    shadowColor: "black",
-    shadowOffset: {
-      width: 0,
-      height: 6
-    },
-    shadowOpacity: 0.05,
-    shadowRadius: 10,
-    elevation: 5
+    // paddingVertical: 20
+    // shadowColor: "black",
+    // shadowOffset: {
+    //   width: 0,
+    //   height: 6
+    // },
+    // shadowOpacity: 0.05,
+    // shadowRadius: 10,
+    // elevation: 5
   }
 });
 

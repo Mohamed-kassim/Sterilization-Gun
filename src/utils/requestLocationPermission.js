@@ -1,4 +1,4 @@
-import { PermissionsAndroid, Platform } from "react-native";
+import { PermissionsAndroid, Platform, Alert } from "react-native";
 import { t } from "_i18n";
 async function requestLocationPermission() {
   console.log('3 permission')
