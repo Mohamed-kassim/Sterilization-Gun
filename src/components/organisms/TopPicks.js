@@ -57,6 +57,7 @@ const TopPicks = ({ navigation }) => {
       <>
         <Section
           Header={item.title}
+          key={item.title+Math.random()}
           centerHeader
           headerPadding={Spacing.PADDING_15}
         >

@@ -13,5 +13,44 @@
     "positive": "Okay",
     "negative": "Cancel",
     "changeLang": "Change Language"
-  }
+  },
+  "loginform":{
+    "welcome": "Welcome to Dokanek, please sign in",
+    "placeholders": {
+      "email": "E-mail",
+      "password": "Password"
+    },
+    "buttons":{
+      "login": "SIGN IN", 
+      "forget": "Forgot Password?",
+      "register": "CREATE AN ACCOUNT"
+    }
+  },
+  "SignUpForm":{
+    "welcome": "Welcome to Dokanek, please sign up",
+    "placeholders": {
+      "email": "E-mail",
+      "password": "Password",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "confirm_password": "Confirm Password",
+      "phone": "Phone"
+    },
+    "buttons":{
+      "login": "Already have an account?",
+      "clickable-login": "Sign In",
+      "register": "SIGN UP"
+    }
+  },
+  "ResetForm":{
+    "welcome": "Reset Your Password",
+    "placeholders": {
+      "email": "E-mail"
+    },
+    "buttons":{
+      "login": "Back to",
+      "clickable-login": "Sign In",
+      "reset": "RESET PASSWORD"
+    }
+}
 }

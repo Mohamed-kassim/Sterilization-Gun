@@ -12,7 +12,7 @@ const HorizontalList = ({ data, renderMenuItem, menuStyles }) => {
       snapToAlignment="center"
       style={[styles.shadow, menuStyles]}
       data={data}
-      keyExtractor={(item, index) => `${index}`}
+      keyExtractor={(item, index) => `${index+Math.random()}`}
       renderItem={(item, index) => renderMenuItem(item, index)}
     />
   );

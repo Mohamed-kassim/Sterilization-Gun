@@ -5,7 +5,6 @@ import { CircularButton, Logo } from "_molecules";
 import { Colors } from "_styles";
 import { Spacing } from "_styles";
 const HomeHeader = ({ navigation }) => {
-    console.log('navigations is ',navigation)
   const navigate = screen => navigation.navigate(screen);
   return (
     <Block
@@ -16,7 +15,7 @@ const HomeHeader = ({ navigation }) => {
       padding={[0, Spacing.PADDING_15 * 0.5]}
     >
       <CircularButton
-        onPress={() => navigate("Settings")}
+        onPress={() => navigate("Auth")}
         icon={"user"}
         color={"black"}
         bgColor={Colors.PRIMARY}

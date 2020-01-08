@@ -11,9 +11,9 @@ export default class Input extends Component {
   renderLabel() {
     const { label, error, correct } = this.props;
     return (
-      <Block flex={false}>
+      <Block flex={false} style={{marginBottom: Spacing.PADDING_15*.5}}>
         {label ? (
-          <Text gray={!error} success={correct} error={error}>
+          <Text  gray={!error} success={correct} error={error}>
             {label}
           </Text>
         ) : null}
@@ -203,7 +203,6 @@ export default class Input extends Component {
             borderTopRightRadius: Spacing.RADIUS
           }
         : null;
-    console.log(roundedRightStyle);
     const inputType = email
       ? "email-address"
       : number
@@ -279,7 +278,7 @@ const styles = StyleSheet.create({
     right: Spacing.BASE * 0.5
   },
   border: {
-    borderWidth: StyleSheet.hairlineWidth
+    borderWidth: StyleSheet.hairlineWidth,
   },
   rounded: {
     borderRadius: Spacing.RADIUS

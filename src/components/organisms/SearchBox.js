@@ -4,7 +4,6 @@ import { SearchBox as StyledSearchBox } from "_molecules";
 const SearchBox = ({ navigation }) => {
   const searchRef = useRef(null);
   const [Loading, setLoading] = useState(false);
-  console.log("test", searchRef);
   const Search = () => {
     setLoading(true);
 

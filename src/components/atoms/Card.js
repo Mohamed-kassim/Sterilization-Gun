@@ -64,7 +64,6 @@ const Card = props => {
             {actions ? (
               <Block flex={false} row space={"between"}>
                 {actions.map(action => {
-                  console.log(action);
                   return (
                     <TouchableOpacity
                       onPress={action.onPress}
@@ -120,7 +119,6 @@ const Card = props => {
             {actions ? (
               <Block flex={false} row space={"between"}>
                 {actions.map(action => {
-                  console.log(action);
                   return (
                     <TouchableOpacity
                       onPress={action.onPress}

@@ -3,7 +3,6 @@ import {Card,Block, Text} from '_atoms'
 import { Spacing } from '_styles';
 
 const HorizontalTile = ({item, navigation}) => {
-  console.log('tile',navigation)
         return (
           <Card
           touchable

@@ -9,7 +9,6 @@ const Slider = ({ images, autoScrolled, imageStyle }) => {
     const scroll = useRef('')
     let count = 0
     useEffect(() => {
-        console.log(autoScrolled)
         if (autoScrolled) {
             const interval = setInterval(() => {
                 if (scroll.current) {

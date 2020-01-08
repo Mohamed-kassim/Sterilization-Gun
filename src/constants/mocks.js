@@ -2,6 +2,7 @@ import React from "react";
 import Icon from "react-native-vector-icons/FontAwesome";
 import { Spacing } from "_styles";
 import { Colors } from "_styles";
+import { t } from "_i18n";
 const retailerData = [
   { id: "AMAZON_CA", name: "Amazon" },
   { id: "WALMART_CA ", name: "Walmart" },
@@ -22,7 +23,7 @@ const SignUpFields = [
   {
     id: "email",
     name: "E-mail",
-    icon: <Icon name="envelop" size={Spacing.BASE} color={Colors.GRAY_DARK} />
+    icon: <Icon name="envelope" size={Spacing.BASE} color={Colors.GRAY_DARK} />
   },
   {
     id: "password",
@@ -37,8 +38,29 @@ const SignUpFields = [
   {
     id: "phone",
     name: "Phone Number",
-    icon: <Icon name="phone" size={Spacing.BASE} color={Colors.GRAY_DARK} />
+    icon: <Icon name="phone" size={Spacing.BASE} color={Colors.Black} />
   }
 ];
 
-export { retailerData, SignUpFields };
+const LoginFields = [
+  {
+    id: "email",
+    name: "E-mail",
+    icon: <Icon name="envelope" size={Spacing.BASE}  />
+  },
+  {
+    id: "password",
+    name: "Password",
+    icon: null
+  },
+
+]
+const ResetFields = [
+  {
+    id: "email",
+    name: "E-mail",
+    icon: <Icon name="envelope" size={Spacing.BASE}  />
+  },
+]
+
+export { retailerData, SignUpFields, LoginFields, ResetFields };

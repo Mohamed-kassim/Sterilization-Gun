@@ -12,7 +12,7 @@ const HomeScreen = ({ navigation }) => {
   console.log("6");
 
   return (
-    <SafeAreaView style={{ flex: 1}}>
+
       <ScrollView >
         <HomeHeader navigation={navigation}/>
         <SearchBox navigation={navigation}/>
@@ -22,7 +22,6 @@ const HomeScreen = ({ navigation }) => {
         <Divider width={'92%'}/>
         <TopPicks navigation={navigation}/>
       </ScrollView>
-    </SafeAreaView>
   );
 };
 
