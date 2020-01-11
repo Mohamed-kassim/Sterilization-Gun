@@ -79,7 +79,7 @@ const Card = props => {
         </Block>
       </Block>
     );
-  } else {
+  } else if(horizontal){
     return (
       <Block
         flex={false}
@@ -134,6 +134,11 @@ const Card = props => {
         </TouchableOpacity>
       </Block>
     );
+  }
+  else{
+    <Block color={color || Colors.white} style={cardStyles} {...props}>
+        {children}
+      </Block>
   }
 };
 

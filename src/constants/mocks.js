@@ -38,7 +38,7 @@ const SignUpFields = [
   {
     id: "phone",
     name: "Phone Number",
-    icon: <Icon name="phone" size={Spacing.BASE} color={Colors.Black} />
+    icon: <Icon name="phone" size={Spacing.BASE} color={Colors.GRAY_DARK} />
   }
 ];
 
@@ -55,6 +55,34 @@ const LoginFields = [
   },
 
 ]
+const AddAddressFields = [
+  {
+    id: "street_address",
+    name: "Street Address",
+    icon: <Icon name="address-card" size={Spacing.BASE} color={Colors.GRAY_DARK}/>
+  },
+  {
+    id: "state",
+    name: "State",
+    icon: null
+  },
+  {
+    id: "city",
+    name: "City",
+    icon: null
+  },
+  {
+    id: "zip",
+    name: "Zip",
+    icon: null
+  },
+  {
+    id: "nearest_landmark",
+    name: "Nearest Landmark",
+    icon: null
+  },
+
+]
 const ResetFields = [
   {
     id: "email",
@@ -63,4 +91,4 @@ const ResetFields = [
   },
 ]
 
-export { retailerData, SignUpFields, LoginFields, ResetFields };
+export { retailerData, SignUpFields, LoginFields, ResetFields, AddAddressFields };

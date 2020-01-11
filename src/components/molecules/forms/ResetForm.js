@@ -42,7 +42,7 @@ const ResetForm = ({ submit, login }) => {
         color={"primary"}
         style={{ marginTop: Spacing.BASE * 2 }}
         onPress={() => {
-            submit({ first_name, last_name, email, phone, password});
+            submit({ email});
         }}
       >
         <Text center bold>

@@ -109,7 +109,8 @@ const styles = StyleSheet.create({
     shadowColor: Colors.BLACK,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.3,
-    shadowRadius: 10
+    shadowRadius: 10,
+    elevation:1
   },
   row: {
     flexDirection: "row"

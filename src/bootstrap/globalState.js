@@ -3,7 +3,11 @@ import { createGlobalState } from 'react-hooks-global-state';
 
 
 const initialState = {
-    count: 0,
+    position: {},
+    appSettings: {},
+    isLoggedIn: false,
+    token:'',
+    userData:{}
 }
 
 export const { GlobalStateProvider, useGlobalState } = createGlobalState(initialState);

@@ -14,7 +14,44 @@
     "negative": "إلغاء",
     "changeLang": "تغيير اللغة"
   },
-  "signin":{
+  "loginform":{
     "welcome": "مرحبًا بكم في دكانك، يرجى تسجيل الدخول",
-  }
+    "placeholders": {
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور"
+    },
+    "buttons":{
+      "login": "SIGN IN", 
+      "forget": "هل نسيت كلمة المرور؟",
+      "register": "إنشاء حساب"
+    }
+  },
+  "SignUpForm":{
+    "welcome": "مرحبًا بكم في دكانك، يرجى الإشتراك",
+    "placeholders": {
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "first_name": "الإسم الأول",
+      "last_name": "الإسم الأخير",
+      "confirm_password": "اعد كلمة المرور",
+      "phone": "رقم الهاتف"
+    },
+    "buttons":{
+      "login": "هل لديك حساب؟",
+      "clickable-login": "تسجيل الدخول",
+      "register": "الإشتراك"
+    }
+  },
+  "ResetForm":{
+    "welcome": "اعد تعيين كلمة المرور",
+    "placeholders": {
+      "email": "البريد الإلكتروني",
+    },
+    "buttons":{
+      "login": "العودة إلى",
+      "clickable-login": "تسجيل الدخول",
+      "reset": "إعادة تعيين كلمة المرور"
+    }
 }
+}
+

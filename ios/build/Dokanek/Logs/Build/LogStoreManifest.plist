@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>2CC41DE2-FEAF-478C-B33B-225342A495CB</key>
+		<key>89F3A96C-05B5-4576-84EE-72BDE4360C32</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2CC41DE2-FEAF-478C-B33B-225342A495CB.xcactivitylog</string>
+			<string>89F3A96C-05B5-4576-84EE-72BDE4360C32.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,42 +27,13 @@
 			<key>signature</key>
 			<string>Building workspace Dokanek with scheme Dokanek and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>600206019.73819399</real>
+			<real>600455632.06734502</real>
 			<key>timeStoppedRecording</key>
-			<real>600206024.86761999</real>
+			<real>600455641.15067697</real>
 			<key>title</key>
 			<string>Building workspace Dokanek with scheme Dokanek and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>2CC41DE2-FEAF-478C-B33B-225342A495CB</string>
-		</dict>
-		<key>FF61707D-66E3-4DF9-8ED5-19EFC3870526</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>FF61707D-66E3-4DF9-8ED5-19EFC3870526.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>Dokanek project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Dokanek</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building workspace Dokanek with scheme Dokanek and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>600205914.85654902</real>
-			<key>timeStoppedRecording</key>
-			<real>600205920.19305503</real>
-			<key>title</key>
-			<string>Building workspace Dokanek with scheme Dokanek and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>FF61707D-66E3-4DF9-8ED5-19EFC3870526</string>
+			<string>89F3A96C-05B5-4576-84EE-72BDE4360C32</string>
 		</dict>
 	</dict>
 </dict>

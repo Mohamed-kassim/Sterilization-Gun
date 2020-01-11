@@ -4,6 +4,7 @@ const SignUpForm = ({navigation}) => {
   const navigate = screen => navigation.navigate(screen);
   const submit = (data)=> {
     console.log('create', data)
+    navigate('AddAddress')
   }
   const login = ()=> {
     navigate('Login')

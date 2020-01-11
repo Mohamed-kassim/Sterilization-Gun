@@ -8,12 +8,13 @@ import { t } from "_i18n";
 
 import { SearchBox, HomeSlider, Features, HomeHeader, TopPicks} from "_organisms";
 import {Divider} from '_atoms'
+import { Spacing } from "_styles";
 const HomeScreen = ({ navigation }) => {
   console.log("6");
 
   return (
 
-      <ScrollView >
+      <ScrollView contentContainerStyle={{paddingTop: Spacing.BASE}}>
         <HomeHeader navigation={navigation}/>
         <SearchBox navigation={navigation}/>
         <HomeSlider/>

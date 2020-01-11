@@ -8,25 +8,29 @@
       "failMsg": "falied to grant Location Permission"
     }
   },
+  "position": {
+      "title": "Dokanek Location",
+      "failMsg": "falied to get your current location, please make sure your gps is on and Dokanek has permissions"
+  },
   "buttons": {
     "neutral": "Ask Me Later",
     "positive": "Okay",
     "negative": "Cancel",
     "changeLang": "Change Language"
   },
-  "loginform":{
+  "loginform": {
     "welcome": "Welcome to Dokanek, please sign in",
     "placeholders": {
       "email": "E-mail",
       "password": "Password"
     },
-    "buttons":{
-      "login": "SIGN IN", 
+    "buttons": {
+      "login": "SIGN IN",
       "forget": "Forgot Password?",
       "register": "CREATE AN ACCOUNT"
     }
   },
-  "SignUpForm":{
+  "SignUpForm": {
     "welcome": "Welcome to Dokanek, please sign up",
     "placeholders": {
       "email": "E-mail",
@@ -36,21 +40,35 @@
       "confirm_password": "Confirm Password",
       "phone": "Phone"
     },
-    "buttons":{
+    "buttons": {
       "login": "Already have an account?",
       "clickable-login": "Sign In",
       "register": "SIGN UP"
     }
   },
-  "ResetForm":{
+  "ResetForm": {
     "welcome": "Reset Your Password",
     "placeholders": {
       "email": "E-mail"
     },
-    "buttons":{
+    "buttons": {
       "login": "Back to",
       "clickable-login": "Sign In",
       "reset": "RESET PASSWORD"
     }
-}
+  },
+  "AddAddress": {
+    "welcome": "Welcome",
+    "placeholders": {
+      "street_address": "Street Address",
+      "state": "State",
+      "city": "City",
+      "zip": "Zip",
+      "nearest_landmark": "Nearest Landmark",
+    },
+    "buttons": {
+      "save": "Save",
+      "skip": "Skip for later",
+    }
+  }
 }

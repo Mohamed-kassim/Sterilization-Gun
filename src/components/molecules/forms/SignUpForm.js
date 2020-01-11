@@ -35,6 +35,7 @@ const SignUpForm = ({ submit, login }) => {
           secure={
             field.name === "Password" || field.name === "Confirm Password"
           }
+          
           icon={field.icon}
           onChangeText={text => setValue(text, field.id)}
           placeholder={t(`SignUpForm.placeholders.${field.id}`)}

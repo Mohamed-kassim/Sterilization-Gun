@@ -5,6 +5,7 @@ export { default as LoadingAnimation } from "./LoadingAnimation";
 export { default as SearchBox } from "./SearchBox";
 export { default as Pick } from "./Pick";
 export { default as Picks } from "./Picks";
+export { default as AddressMap } from "./AddressMap";
 export * from "./buttons"
 export * from "./logos"
 export * from "./forms"

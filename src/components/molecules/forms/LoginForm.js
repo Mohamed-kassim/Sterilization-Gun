@@ -20,9 +20,9 @@ const LoginForm = ({ submit, forget, create }) => {
     </Block>
   );
 
-  const setValue = (value, field)=> {
-    eval(`set${capitalizeFirstLetter(field)}('${value}')`)
-  }
+  const setValue = (value, field) => {
+    eval(`set${capitalizeFirstLetter(field)}('${value}')`);
+  };
   const renderFields = () =>
     LoginFields.map(field => {
       return (
@@ -31,7 +31,7 @@ const LoginForm = ({ submit, forget, create }) => {
           errMsg={"Error in this field"}
           secure={field.name === "Password"}
           icon={field.icon}
-          onChangeText={(text)=> setValue(text, field.id)}
+          onChangeText={text => setValue(text, field.id)}
           placeholder={t(`loginform.placeholders.${field.id}`)}
           label={t(`loginform.placeholders.${field.id}`)}
         />
@@ -75,7 +75,6 @@ const LoginForm = ({ submit, forget, create }) => {
       </Button>
     </Block>
   );
-
   return (
     <KeyboardAwareScrollView>
       <Block middle padding={[Spacing.PADDING_15, Spacing.PADDING_15]}>
