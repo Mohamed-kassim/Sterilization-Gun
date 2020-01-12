@@ -1,12 +1,25 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import {
+  ScrollView,
+} from "react-native";
 
+import { t } from "_i18n";
+import {Divider} from '_atoms'
+import { ProductSlider} from "_organisms";
+import { Spacing } from "_styles";
 const ProductDetails = () => {
     return (
-        <View>
-            <Text>Product Details</Text>
-        </View>
-    )
+      <ScrollView >
+        <ProductSlider/>
+        <Divider width={'92%'}/>
+     </ScrollView>)
 }
 
+ProductDetails.navigationOptions = ({ navigation }) => {
+    return {
+      headerForceInset: { top: "never", bottom: "never" },
+      title: t('ProductDetails.title'),
+      headerStyle: { borderBottomWidth: 0 }
+    };
+  };
 export default ProductDetails

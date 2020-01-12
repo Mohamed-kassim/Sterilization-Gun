@@ -20,7 +20,7 @@ const Card = props => {
   } = props;
 
   const cardStyles = [styles.card, cover && styles.cover, style];
-  const coverImageStyle = [styles.coverImageStyle, cover && cover.style];
+  const coverImageStyle = [horizontal && styles.hCoverImageStyle,!horizontal && styles.vCoverImageStyle, cover && cover.style];
   if (!horizontal) {
     return (
       <Block column center>
@@ -109,8 +109,6 @@ const Card = props => {
             ) : null}
             <Block
               style={[contentContainerStyles]}
-              color={"orange"}
-              flex={false}
               padding={[0, Spacing.PADDING_15 * 0.6]}
             >
               {children}
@@ -153,11 +151,17 @@ export const styles = StyleSheet.create({
     padding: 0,
     borderRadius: Spacing.RADIUS
   },
-  coverImageStyle: {
+  vCoverImageStyle: {
     width: Spacing.BASE * 10,
     height: Spacing.BASE * 13,
     borderTopRightRadius: Spacing.RADIUS,
     borderTopLeftRadius: Spacing.RADIUS
     
+  },
+hCoverImageStyle:{
+  width: Spacing.BASE * 10,
+  height: Spacing.BASE * 13,
+  borderTopLeftRadius: Spacing.RADIUS,
+  borderBottomLeftRadius: Spacing.RADIUS
   }
 });

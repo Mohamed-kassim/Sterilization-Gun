@@ -18,6 +18,11 @@
     "negative": "Cancel",
     "changeLang": "Change Language"
   },
+  "retailers":{
+    "AMAZON_CA": "Amazon",
+    "WALMART_CA ": "Walmart",
+    "ALIEXPRESS": "ALIEXPRESS"
+  },
   "loginform": {
     "welcome": "Welcome to Dokanek, please sign in",
     "placeholders": {
@@ -31,6 +36,7 @@
     }
   },
   "SignUpForm": {
+    "title": "Sign Up",
     "welcome": "Welcome to Dokanek, please sign up",
     "placeholders": {
       "email": "E-mail",
@@ -47,6 +53,7 @@
     }
   },
   "ResetForm": {
+    "title":"Reset Password",
     "welcome": "Reset Your Password",
     "placeholders": {
       "email": "E-mail"
@@ -58,6 +65,7 @@
     }
   },
   "AddAddress": {
+    "title":"Add Address",
     "welcome": "Welcome",
     "placeholders": {
       "street_address": "Street Address",
@@ -68,7 +76,22 @@
     },
     "buttons": {
       "save": "Save",
-      "skip": "Skip for later",
+      "skip": "Skip for later"
     }
+  },
+  "Cart": {
+    "title":"Cart",
+    "from": "From",
+    "buttons":{
+      "checkout": "Proceed To Checkout"
+    }
+  },
+  "ProductDetails": {
+    "title":"Product Details",
+    "from": "From"
+  },
+  "Checkout": {
+    "title":"Checkout",
+    "from": "From"
   }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  SafeAreaView,
   ScrollView,
 } from "react-native";
 
@@ -25,5 +24,10 @@ const HomeScreen = ({ navigation }) => {
       </ScrollView>
   );
 };
+HomeScreen.navigationOptions = ({ navigation }) => {
+  return {
+     header: () => null
+  } 
+}
 
 export default HomeScreen;

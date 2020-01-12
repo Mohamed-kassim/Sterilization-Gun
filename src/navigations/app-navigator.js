@@ -5,11 +5,11 @@ import Cart from "_scenes/Cart";
 import  Settings from "_scenes/Settings";
 import  Search from "_scenes/Search";
 import ProductDetails from "_scenes/ProductDetails";
+import Checkout from "_scenes/Checkout";
+import { Spacing } from "_styles";
 
 const StackNavigatorConfig = {
-  initialRouteName: "Home",
-  // header: null,
-  headerMode: "none"
+  
 };
 
 const RouteConfigs = {
@@ -30,6 +30,9 @@ const RouteConfigs = {
   },
   ProductDetails: {
     screen: ProductDetails
+  },
+  Checkout: {
+    screen: Checkout
   }
 };
 
