@@ -86,6 +86,17 @@
       "checkout": "Proceed To Checkout"
     }
   },
+  "OrderSummary": {
+    "title":"Order summary",
+    "from": "From",
+    "quantity": "Quantity",
+    "buttons":{
+      "payment": "CONTINUE TO PAYMENT"
+    },
+    "placeholders":{
+      "delivery_notes": "Delivery Notes"
+    }
+  },
   "ProductDetails": {
     "title":"Product Details",
     "from": "From"

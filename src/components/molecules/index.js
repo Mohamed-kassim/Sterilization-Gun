@@ -9,6 +9,10 @@ export { default as SearchItem } from "./SearchItem";
 export { default as SearchList } from "./SearchList";
 export { default as CartItem } from "./CartItem";
 export { default as CartList } from "./CartList";
+export { default as CartTotal } from "./CartTotal";
+export { default as OrderSummaryItem } from "./OrderSummaryItem";
+export { default as OrderSummaryList } from "./OrderSummaryList";
+export { default as OrderSummaryTotal } from "./OrderSummaryTotal";
 export { default as AddressMap } from "./AddressMap";
 export * from "./buttons"
 export * from "./logos"

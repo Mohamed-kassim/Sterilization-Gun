@@ -1,14 +1,14 @@
 import React from "react";
-import { Divider } from "_atoms";
+import { Divider, Block } from "_atoms";
 import { ScrollView } from "react-native";
 import { t } from "_i18n";
-import { CartList, CartButton, Cart as CartLayout } from "_organisms";
+import { CartList, CheckoutButton, Cart as CartLayout } from "_organisms";
 import { Spacing } from "_styles";
 const Cart = ({ navigation }) => {
   return (
-    <ScrollView contentContainerStyle={{ paddingTop: Spacing.BASE }}>
+    <Block>
       <CartLayout navigation={navigation} />
-    </ScrollView>
+    </Block>
   );
 };
 

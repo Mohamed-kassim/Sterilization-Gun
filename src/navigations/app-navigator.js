@@ -2,6 +2,7 @@ import { createStackNavigator } from "react-navigation-stack";
 import HomeScreen from "_scenes/home";
 import AboutScreen from "_scenes/about";
 import Cart from "_scenes/Cart";
+import OrderSummary from "_scenes/OrderSummary";
 import  Settings from "_scenes/Settings";
 import  Search from "_scenes/Search";
 import ProductDetails from "_scenes/ProductDetails";
@@ -21,6 +22,9 @@ const RouteConfigs = {
   },
   Cart: {
     screen: Cart
+  },
+  OrderSummary: {
+    screen: OrderSummary
   },
   Search: {
     screen: Search
