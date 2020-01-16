@@ -7,7 +7,7 @@ import { Spacing } from "_styles";
 
 const Cart = ({ navigation }) => {
   const checkout = () => {
-    navigation.navigate("OrderSummary");
+    navigation.navigate("AddAddress",{route: 'Cart',test: 'dfsfsd'});
   };
   return (
     <Block style={{paddingBottom: Spacing.BASE * 3.5}}>

@@ -9,14 +9,15 @@ const CartTotal = ({ totalCount, totalPrice }) => {
       <Block
         row
         middle
-        space={"around"}
+        center
+        space={"between"}
         flex={false}
         padding={[Spacing.BASE * 0.5, Spacing.BASE * 0.5]}
       >
         <Text weight={"500"} title>
-          Total items: <Text>{totalCount}</Text>
+          Shopping Items(<Text>{totalCount}</Text>)
         </Text>
-        <Text weight={"500"} title>
+        <Text weight={"500"} >
           Total Cost: <Text>{totalPrice}$</Text>
         </Text>
       </Block>

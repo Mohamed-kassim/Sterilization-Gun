@@ -14,6 +14,8 @@ export { default as OrderSummaryItem } from "./OrderSummaryItem";
 export { default as OrderSummaryList } from "./OrderSummaryList";
 export { default as OrderSummaryTotal } from "./OrderSummaryTotal";
 export { default as AddressMap } from "./AddressMap";
+export { default as SettingsItem } from "./SettingsItem";
+export { default as SettingsList } from "./SettingsList";
 export * from "./buttons"
 export * from "./logos"
 export * from "./forms"

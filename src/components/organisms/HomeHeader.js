@@ -4,8 +4,10 @@ import { CircularButton, Logo } from "_molecules";
 
 import { Colors } from "_styles";
 import { Spacing } from "_styles";
+import {useGlobalState} from '_globalState'
 const HomeHeader = ({ navigation }) => {
   const navigate = screen => navigation.navigate(screen);
+  const [isLoggedIn, setIsLoggedIn] = useGlobalState('isLoggedIn')
   return (
     <Block
       center
@@ -15,7 +17,7 @@ const HomeHeader = ({ navigation }) => {
       padding={[0, Spacing.PADDING_15 * 0.5]}
     >
       <CircularButton
-        onPress={() => navigate("Auth")}
+        onPress={() => (isLoggedIn)? navigate("Settings"): navigate("Auth")}
         icon={"user"}
         color={"black"}
         bgColor={Colors.PRIMARY}

@@ -21,8 +21,9 @@ const OrderSummary = ({ navigation }) => {
   renderDeliveryNotes = () => {
     return (
         <FieldInput
+
           errMsg={"Error in this field"}
-          style={{ height: Spacing.BASE * 6 }}
+          style={{ height: Spacing.BASE * 6, marginHorizontal: Spacing.BASE*.5  }}
           multiline={true}
           onChangeText={text => setDeliveryNotes(text)}
           placeholder={t(`OrderSummary.placeholders.delivery_notes`)}
@@ -33,6 +34,8 @@ const OrderSummary = ({ navigation }) => {
   return (
     <Block style={{ paddingBottom: Spacing.BASE * 3.5 }}>
 
+      <Divider flex={false} width="90%" style={{ marginVertical: 0 }} />
+      <Text style={{paddingVertical: Spacing.BASE*.5, paddingLeft: Spacing.BASE*.5}}bold >SHOPPING CART</Text>
       <Divider flex={false} width="90%" style={{ marginVertical: 0 }} />
       <OrderSummaryList navigation={navigation} />
       <Divider flex={false} width="90%" style={{ marginTop: 0 }} />

@@ -104,5 +104,22 @@
   "Checkout": {
     "title":"Checkout",
     "from": "From"
+  },
+  "OrderConfirmation": {
+    "title":"Order Success",
+    "from": "From"
+  },
+  "OrderHistory": {
+    "title":"Order History",
+    "from": "From"
+  },
+
+  "Settings": {
+    "title":"Settings",
+    "from": "From"
+  },
+  "PersonalSettings": {
+    "title":"Personal Settings",
+    "from": "From"
   }
 }

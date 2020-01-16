@@ -12,3 +12,4 @@ export { default as HorizontalList } from "./HorizontalList";
 export { default as Section } from "./Section";
 export { default as Map } from "./Map";
 export { default as VerticalList } from "./VerticalList";
+export { default as Accordion } from "./Accordion";

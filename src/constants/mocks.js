@@ -90,5 +90,31 @@ const ResetFields = [
     icon: <Icon name="envelope" size={Spacing.BASE}  />
   },
 ]
+const SettingsButtons = [
+  {
+    id: "personal_details",
+    name: "Personal Details",
+    icon: <Icon name="user" size={Spacing.BASE} color={Colors.GRAY_DARK}/>,
+    nav: 'PersonalSettings'
+  },
+  {
+    id: "address",
+    name: "Address",
+    icon:  <Icon name="address-card" size={Spacing.BASE} color={Colors.GRAY_DARK}/>,
+    nav: 'AddAddress'
+  },
+  {
+    id: "order_history",
+    name: "Order History",
+    icon: <Icon name="history" size={Spacing.BASE} color={Colors.GRAY_DARK}/>,
+    nav: 'OrderHistory'
+  },
 
-export { retailerData, SignUpFields, LoginFields, ResetFields, AddAddressFields };
+
+]
+const logout=  {
+  id: "logout",
+  name: "Logout",
+  icon: <Icon name="sign-out" size={Spacing.BASE} color={Colors.ERROR}/>
+}
+export { retailerData, SignUpFields, LoginFields, ResetFields, AddAddressFields, SettingsButtons, logout };

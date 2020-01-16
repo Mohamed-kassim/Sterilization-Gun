@@ -8,7 +8,8 @@ export { default as SearchList } from "./SearchList";
 export { default as CartList } from "./CartList";
 export { default as CartTotal } from "./CartTotal";
 export { default as Cart } from "./Cart";
-
+export { default as SettingsList } from "./SettingsList";
+export { default as Settings } from "./Settings";
 export { default as OrderSummaryList } from "./OrderSummaryList";
 export { default as OrderSummaryTotal } from "./OrderSummaryTotal";
 export { default as OrderSummary } from "./OrderSummary";

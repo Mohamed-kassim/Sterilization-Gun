@@ -1,11 +1,18 @@
 import React from 'react'
 import {Text, Block} from '_atoms'
-const Settings = () => {
+import {t} from '_i18n'
+import {  Settings as SettingsLayout } from "_organisms";
+
+const Settings = ({navigation}) => {
     return (
-        <Block>
-            <Text> Settings</Text>
-        </Block>
+        <SettingsLayout navigation={navigation}/>
     )
 }
-
+Settings.navigationOptions = ({ navigation }) => {
+    return {
+      headerForceInset: { top: "never", bottom: "never" },
+      title: t("Settings.title"),
+      headerStyle: { borderBottomWidth: 0 }
+    };
+  };
 export default Settings

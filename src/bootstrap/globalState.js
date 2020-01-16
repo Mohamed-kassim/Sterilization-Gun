@@ -5,7 +5,7 @@ import { createGlobalState } from 'react-hooks-global-state';
 const initialState = {
     position: {},
     appSettings: {},
-    isLoggedIn: false,
+    isLoggedIn: true,
     token:'',
     userData:{}
 }
