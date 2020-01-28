@@ -5,8 +5,9 @@ import { ScrollView } from "react-native";
 const AddAddress = ({navigation}) => {
 
   const navigate = screen => navigation.navigate(screen);
-  const {route} = navigation.state.params
   console.log(navigation.state)
+  const {route} = navigation.state.params
+
   console.log(route)
   const save = (data)=> {
     console.log('save', data);

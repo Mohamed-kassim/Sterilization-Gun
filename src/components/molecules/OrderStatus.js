@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-const OrderStatus = ({order_date, eta,status,order_number, total_amoun}) => {
+const OrderStatus = ({order_date, eta,status,order_number, total_amount, additional_charges}) => {
     return (
       <Block row padding={[Spacing.BASE * 0.6, 0]}>
         <Block>
@@ -23,13 +23,13 @@ const OrderStatus = ({order_date, eta,status,order_number, total_amoun}) => {
             Total
           </Text>
           <Text caption center>
-            {otal_amoun}
+            {total_amount}
           </Text>
           <Text style={{paddingTop: Spacing.PADDING_15*2.1}}  bold center>
             Additional Fees
           </Text>
           <Text caption center>
-            0$
+            {additional_charges}$
           </Text>
         </Block>
         <Block>

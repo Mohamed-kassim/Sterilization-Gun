@@ -83,7 +83,8 @@
     "title":"Cart",
     "from": "From",
     "buttons":{
-      "checkout": "Proceed To Checkout"
+      "checkout": "Proceed To Checkout",
+      "AddToCart": "AddToCart"
     }
   },
   "OrderSummary": {
