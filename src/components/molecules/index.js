@@ -18,6 +18,7 @@ export { default as SettingsItem } from "./SettingsItem";
 export { default as SettingsList } from "./SettingsList";
 export { default as ProductTitle } from "./ProductTitle";
 export { default as ProductPrice } from "./ProductPrice";
+export { default as ProductDescription } from "./ProductDescription";
 export * from "./buttons"
 export * from "./logos"
 export * from "./forms"

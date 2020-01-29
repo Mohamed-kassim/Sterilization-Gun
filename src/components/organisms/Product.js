@@ -9,7 +9,7 @@ import {
   ProductPrice,
   ProductRating,
   RelatedItems,
-  AddToCartButton
+  ProductDescription
 } from "_organisms";
 import { Spacing, Colors } from "_styles";
 import { amazonResponse, walmart } from "_mocks";
@@ -69,16 +69,7 @@ const Product = ({ navigation }) => {
           />
         </Block>
         <Divider width={"92%"} style={{ marginVertical: 5 }} />
-        <Block padding={[Spacing.BASE * 0.5, Spacing.BASE * 0.5]}>
-          <Section
-            Header={"Description"}
-            headerStyle={{ fontSize: Typography.FONT_SIZE_BODY }}
-          >
-            <Block padding={[Spacing.BASE * 0.5, Spacing.BASE * 0.5]}>
-              <Text>{description}</Text>
-            </Block>
-          </Section>
-        </Block>
+            <ProductDescription description={description}/>
         <Divider width={"92%"} style={{ marginVertical: 5 }} />
         <Block padding={[Spacing.BASE * 0.5, Spacing.BASE * 0.5]}>
           <Section
