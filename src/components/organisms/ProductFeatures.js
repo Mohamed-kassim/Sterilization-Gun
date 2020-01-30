@@ -1,10 +1,10 @@
 import React from "react";
-import { Text, Block, Section } from "_atoms";
-import { Typography, Spacing } from "_styles";
+import {ProductFeatures as StyledProductFeatures} from '_organisms'
 const ProductFeatures = ({ features }) => {
 
   return (
-   <StyledProductFeatures features={features}/>
+  //  <StyledProductFeatures features={features}/>
+  null
   );
 };
 

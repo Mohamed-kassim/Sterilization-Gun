@@ -9,7 +9,8 @@ import {
   ProductPrice,
   ProductRating,
   RelatedItems,
-  ProductDescription
+  ProductDescription,
+  ProductFeatures
 } from "_organisms";
 import { Spacing, Colors } from "_styles";
 import { amazonResponse, walmart } from "_mocks";
@@ -71,20 +72,7 @@ const Product = ({ navigation }) => {
         <Divider width={"92%"} style={{ marginVertical: 5 }} />
             <ProductDescription description={description}/>
         <Divider width={"92%"} style={{ marginVertical: 5 }} />
-        <Block padding={[Spacing.BASE * 0.5, Spacing.BASE * 0.5]}>
-          <Section
-            Header={"Features"}
-            headerStyle={{ fontSize: Typography.FONT_SIZE_BODY }}
-          >
-            <Block padding={[Spacing.BASE * 0.5, Spacing.BASE * 0.5]}>
-              {features.map(feature => (
-                <Text body>
-                  <Text title>•</Text> {feature}
-                </Text>
-              ))}
-            </Block>
-          </Section>
-        </Block>
+        <ProductFeatures features={features}/>
         <Divider width={"92%"} style={{ marginVertical: 5 }} />
         <Block padding={[Spacing.BASE * 0.5, Spacing.BASE * 0.5]}>
           <Section
