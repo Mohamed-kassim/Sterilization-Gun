@@ -12,7 +12,7 @@ const SearchBox = ({ navigation }) => {
       navigation.navigate("Search",);
     }, 500);
   };
-
+  
   return (
     <StyledSearchBox
       Loading={Loading}

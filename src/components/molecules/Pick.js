@@ -6,7 +6,7 @@ const HorizontalTile = ({item, navigation}) => {
         return (
           <Card
           touchable
-            style={{marginHorizontal: Spacing.PADDING_15*.5,marginBottom:Spacing.PADDING_15,   borderRadius: Spacing.RADIUS}}
+            style={{marginHorizontal: Spacing.PADDING_15*.5,marginBottom:Spacing.PADDING_15, maxWidth: Spacing.BASE*8,  borderRadius: Spacing.RADIUS}}
             shadow
             cover={{
               uri: item.image_url,
@@ -19,7 +19,7 @@ const HorizontalTile = ({item, navigation}) => {
            
           >
             <Block center middle padding={[Spacing.BASE*.2]}>
-              <Text bold caption >{item.title} </Text>
+              <Text bold caption numberOfLines={2}>{item.title} </Text>
               <Text style={{marginTop: Spacing.BASE*.4}} bold caption gray>{item.price} </Text>
               </Block>
           </Card>

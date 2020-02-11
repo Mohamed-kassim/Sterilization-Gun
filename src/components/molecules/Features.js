@@ -2,9 +2,10 @@ import React from "react";
 import { Dimensions, Animated, FlatList, StyleSheet } from "react-native";
 import { Block, Card } from "_atoms";
 import { Colors, Spacing } from "_styles";
+
 const { width, height } = Dimensions.get("window");
 const scrollX = new Animated.Value(0);
-const Features = ({ items }) => {
+const Features = ({ navigation, items }) => {
   const renderDots = () => {
     const dotPosition = Animated.divide(scrollX, width);
     return (
@@ -36,9 +37,11 @@ const Features = ({ items }) => {
         borderRadius: Spacing.RADIUS
       }}
       touchable
-      onPress={item.onPress}
+      onPress={()=> {
+        navigation.navigate('Search')
+      }}
       cover={{
-        uri: item.image,
+        uri: item.image_url,
         style: {
           width: width - Spacing.PADDING_15 * 4,
           height: width - Spacing.PADDING_15 * 4,

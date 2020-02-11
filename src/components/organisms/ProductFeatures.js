@@ -1,10 +1,10 @@
 import React from "react";
-import {ProductFeatures as StyledProductFeatures} from '_organisms'
+import {ProductFeatures as StyledProductFeatures} from '_molecules'
 const ProductFeatures = ({ features }) => {
 
   return (
-  //  <StyledProductFeatures features={features}/>
-  null
+   <StyledProductFeatures features={features}/>
+  // null
   );
 };
 
