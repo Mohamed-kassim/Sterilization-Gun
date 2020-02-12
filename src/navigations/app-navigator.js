@@ -5,6 +5,7 @@ import Cart from "_scenes/Cart";
 import OrderSummary from "_scenes/OrderSummary";
 import OrderConfirmation from "_scenes/OrderConfirmation";
 import OrderHistory from "_scenes/OrderHistory";
+import OrderDetails from "_scenes/OrderDetails";
 import PersonalSettings from '_scenes/PersonalSettings'
 import  Settings from "_scenes/Settings";
 import  Search from "_scenes/Search";
@@ -35,6 +36,7 @@ const RouteConfigs = {
   AddAddress,
   PersonalSettings,
   OrderHistory,
+  OrderDetails,
   Search: {
     screen: Search
   },

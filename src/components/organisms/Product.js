@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { ScrollView } from "react-native";
-import Menu from "react-native-menu-list";
+
 import { t } from "_i18n";
 import { Divider, Text, Block, Rating, Section } from "_atoms";
 import {
@@ -10,13 +10,14 @@ import {
   ProductRating,
   RelatedItems,
   ProductDescription,
-  ProductFeatures
+  ProductFeatures,
+  ProductSpecs,
+  ProductVariants
 } from "_organisms";
 import { Spacing, Colors } from "_styles";
 import { amazonResponse, walmart } from "_mocks";
 import { Typography } from "_styles";
 const Product = ({ navigation }) => {
-  const menuRef = useRef(null);
   const {
     images,
     title,
@@ -42,50 +43,17 @@ const Product = ({ navigation }) => {
         </Block>
 
         {/* <Text bold>Variant: </Text> */}
-        <Block middle padding={[Spacing.BASE*.7, Spacing.BASE * 0.5]}>
-          <Menu
-            onChange={value => {
-              console.log(value.variant);
-              setVariant(value);
-            }}
-            firstTitleText={["Blue", "34x32"]}
-            itemButtonTextStyle={{
-              fontSize: Typography.FONT_SIZE_TITLE,
-              fontWeight: "bold"
-            }}
-            itemButtonStyle={{
-              alignSelf: 'center',
-              backgroundColor: Colors.PRIMARY,
-              // width: "80%",
-              paddingHorizontal: Spacing.PADDING_15,
-              borderRadius: Spacing.RADIUS,
-              height: Spacing.BASE * 2.5,
-              justifyContent: "center",
-              alignItems: "center"
-            }}
-            selectedKey={variant}
-            ref={menuRef}
-            labelExtractor={item => item.variant}
-            data={other_variants}
-          />
-        </Block>
+        <ProductVariants
+          variant={variant}
+          setVariant={setVariant}
+          other_variants={other_variants}
+        />
         <Divider width={"92%"} style={{ marginVertical: 5 }} />
-            <ProductDescription description={description}/>
+        <ProductDescription description={description} />
         <Divider width={"92%"} style={{ marginVertical: 5 }} />
-        <ProductFeatures features={features}/>
+        <ProductFeatures features={features} />
         <Divider width={"92%"} style={{ marginVertical: 5 }} />
-        <Block padding={[Spacing.BASE * 0.5, Spacing.BASE * 0.5]}>
-          <Section
-            Header={"Specifications"}
-            headerStyle={{ fontSize: Typography.FONT_SIZE_BODY }}
-          >
-            <Block padding={[Spacing.BASE * 0.5, Spacing.BASE * 0.5]}>
-              {specs.map(spec => (
-                <Text>{spec}</Text>
-              ))}
-            </Block>
-          </Section>
-        </Block>
+        <ProductSpecs specs={specs} />
         <Divider width={"92%"} />
         <RelatedItems navigation={navigation} />
       </Block>

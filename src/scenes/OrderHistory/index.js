@@ -1,30 +1,13 @@
 import React from "react";
-import { Block, Text, Divider } from "_atoms";
+
+import { TouchableOpacity, StyleSheet } from "react-native";
 import { t } from "_i18n";
-import { Accordion } from "_atoms";
-import { Spacing } from "_styles";
-const OrderHistory = () => {
-  const renderAccordionSelf = () => {
-    return (
-      <Block
-        row
-        space={"between"}
-        padding={[Spacing.BASE, Spacing.BASE * 0.25]}
-      >
-        <Text center>27/3/2019</Text>
+import { OrdersHistory } from "_organisms";
 
-        <Text center>Received in Local HUB</Text>
-
-        <Text bold>359$</Text>
-      </Block>
-    );
-  };
+const OrderHistory = ({navigation}) => {
+  
   return (
-    <Block>
-      <Accordion AccordionComponent={renderAccordionSelf()}>
-        <Text>fsdfds</Text>
-      </Accordion>
-    </Block>
+    <OrdersHistory navigation={navigation}/>
   );
 };
 OrderHistory.navigationOptions = ({ navigation }) => {
@@ -34,4 +17,5 @@ OrderHistory.navigationOptions = ({ navigation }) => {
     headerStyle: { borderBottomWidth: 0 }
   };
 };
+
 export default OrderHistory;

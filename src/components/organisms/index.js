@@ -15,10 +15,13 @@ export { default as Settings } from "./Settings";
 export { default as OrderSummaryList } from "./OrderSummaryList";
 export { default as OrderSummaryTotal } from "./OrderSummaryTotal";
 export { default as OrderSummary } from "./OrderSummary";
+export { default as OrdersHistory } from "./OrdersHistory";
 export { default as ProductTitle } from "./ProductTitle";
 export { default as ProductPrice } from "./ProductPrice";
 export { default as ProductRating } from "./ProductRating";
 export { default as ProductDescription } from "./ProductDescription";
 export { default as ProductFeatures } from "./ProductFeatures";
+export { default as ProductSpecs} from "./ProductSpecs";
+export { default as ProductVariants} from "./ProductVariants";
 export * from "./forms"
 export * from "./buttons"

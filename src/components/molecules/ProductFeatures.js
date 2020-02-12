@@ -2,11 +2,6 @@ import React from "react";
 import { Text, Block, Section } from "_atoms";
 import { Typography, Spacing } from "_styles";
 const ProductFeatures = ({ features }) => {
-  const renderFeature = feature => {
-    <Text body>
-      <Text title>•</Text> {feature}
-    </Text>;
-  };
   return (
     <Block padding={[Spacing.BASE * 0.5, Spacing.BASE * 0.5]}>
       <Section

@@ -269,6 +269,92 @@ const amazonResponse = {
   }
 };
 
+const ordersHistory = [
+  {
+    "id":1234,
+    "order_trace":{
+      "100":{
+        "status":"RECEIVED_IN_MAIN_HUB",
+        "timestamp":566565
+      },
+      "200":{
+        "status":"SHIPPED_TO_LIBYA",
+        "timestamp":566565
+      },
+      "300":{
+        "status":"RECEIVED_IN_LIBYA",
+        "timestamp":null
+      },
+      "400":{
+        "status":"RECEIVED_IN_LOCAL_HUB",
+        "timestamp":null
+      },
+      "500":{
+        "status":"OUT_FOR_DELIVERY",
+        "timestamp":null
+      },
+      "600":{
+        "status":"RETURNED_TO_LOCAL_HUB",
+        "timestamp":null
+      },
+      "700":{
+        "status":"DELIVERED",
+        "timestamp":null
+      }
+    },
+    "order_number":"num1234",
+    "order_date":"123648521",
+    "eta":"213165415",
+    "delivery_date":"213165415",
+    "shipment_method":"SEA",
+    "additional_charges":10,
+    "admin_notes":"Over Weight +1kg",
+    "total_amount":150
+  },
+  {
+    "id":12345,
+    "order_trace":{
+      "100":{
+        "status":"RECEIVED_IN_MAIN_HUB",
+        "timestamp":566565
+      },
+      "200":{
+        "status":"SHIPPED_TO_LIBYA",
+        "timestamp":566565
+      },
+      "300":{
+        "status":"RECEIVED_IN_LIBYA",
+        "timestamp":null
+      },
+      "400":{
+        "status":"RECEIVED_IN_LOCAL_HUB",
+        "timestamp":null
+      },
+      "500":{
+        "status":"OUT_FOR_DELIVERY",
+        "timestamp":null
+      },
+      "600":{
+        "status":"RETURNED_TO_LOCAL_HUB",
+        "timestamp":null
+      },
+      "700":{
+        "status":"DELIVERED",
+        "timestamp":null
+      }
+    },
+    "order_number":"num1234",
+    "order_date":"123648521",
+    "eta":"213165415",
+    "delivery_date":"213165415",
+    "shipment_method":"SEA",
+    "additional_charges":10,
+    "admin_notes":"Over Weight +1kg",
+    "total_amount":150
+  },
+
+
+]
 export {
   retailerData,
   SignUpFields,
@@ -278,5 +364,6 @@ export {
   SettingsButtons,
   logout,
   amazonResponse,
-  walmart
+  walmart,
+  ordersHistory
 };
