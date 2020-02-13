@@ -3,7 +3,7 @@ import { Section, Block } from "_atoms";
 import { SearchList as StyledSearchList } from "_molecules";
 import { Spacing } from "_styles";
 import axios from 'axios'
-
+import Config from 'react-native-config'
 // const data = [
 //   {
 //     image_url: "https://picsum.photos/id/866/1000/1000",
@@ -43,7 +43,8 @@ const SearchList = ({ navigation }) => {
   useEffect( () => {
     const  getData =async  () =>{
       try{
-      const {data} = await axios.post('http://192.168.1.69:3002/ecommerce/search', {
+        console.log('url',Config.BASE_URL)
+      const {data} = await axios.post(`${Config.BASE_URL}search`, {
         retailer: "AMAZON_CA", 
         search_key: "iPhone X" 
       })

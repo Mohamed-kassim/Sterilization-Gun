@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import { Card, Block, Text, Rating, Divider } from "_atoms";
 import { Spacing } from "_styles";
 import { Colors } from "_styles";
 import { CircularButton } from "_molecules";
 import { t } from "_i18n";
-const CartItem = ({ item, navigation }) => {
+const CartItem = ({ item, navigation, showButtons }) => {
+  const [quantity, setQuantity] = useState(item.quantity)
   const renderVariants = () => (
     <Block flex={false} row>
       {item.variant.map((item, index) => {
@@ -37,21 +38,22 @@ const CartItem = ({ item, navigation }) => {
   const renderButtons = () => (
     <Block flex={false} row center padding={[Spacing.BASE * 0.5, 0]}>
       <CircularButton
-        onPress={() => navigate("Auth")}
+        disabled={quantity<=0}
+        onPress={() => setQuantity((quantity)=> quantity-1)}
         icon={"minus"}
         color={"black"}
         iconSize={Spacing.BASE * 0.5}
         buttonSize={Spacing.BASE * 0.6}
-        bgColor={Colors.PRIMARY}
+        bgColor={quantity<=0 ? Colors.GRAY_MEDIUM: Colors.PRIMARY}
       />
       <Text
         weight={"400"}
         style={{ paddingHorizontal: Spacing.PADDING_15 * 0.6 }}
       >
-        {item.quantity}
+        {(quantity<=0)? 0 : quantity}
       </Text>
       <CircularButton
-        onPress={() => navigate("Auth")}
+                onPress={() => setQuantity((quantity)=> quantity+1)}
         icon={"plus"}
         color={"black"}
         iconSize={Spacing.BASE * 0.5}
@@ -91,7 +93,7 @@ const CartItem = ({ item, navigation }) => {
         </Text>
         <Block middle >
         {renderPrice()}
-        {renderButtons()}
+        {showButtons &&renderButtons()}
         </Block>
       </Block>
     </Card>

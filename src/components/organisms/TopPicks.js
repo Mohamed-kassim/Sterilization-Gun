@@ -3,11 +3,12 @@ import { Section, Block, Divider } from "_atoms";
 import { Picks } from "_molecules";
 import { Spacing } from "_styles";
 import axios from 'axios'
+import Config from 'react-native-config'
 const TopPicks = ({ navigation }) => {
   const [data, setData] = useState([])
   useEffect( () => {
     const  getData =async  () =>{
-      const {data} = await axios.get('http://192.168.1.69:3002/ecommerce/home/top-picks')
+      const {data} = await axios.get(`${Config.BASE_URL}home/top-picks`)
       console.log(data)
       setData(data.data.top_picks)
     }

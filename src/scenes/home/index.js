@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import {
   ScrollView,
 } from "react-native";
-
+import Config from 'react-native-config'
 import { t } from "_i18n";
 
 import { SearchBox, HomeSlider, Features, HomeHeader, TopPicks} from "_organisms";
@@ -12,9 +12,10 @@ import {useDataApi} from '_utils/hooks'
 import axios from 'axios'
 const HomeScreen = ({ navigation }) => {
   const [data, setData] = useState({slider: [], shortcuts: []})
+  console.log('url',Config.BASE_URL)
   useEffect( () => {
     const  getData =async  () =>{
-      const {data} = await axios.get('http://192.168.1.69:3002/ecommerce/home')
+      const {data} = await axios.get(`${Config.BASE_URL}home`)
       setData(data.data)
     }
     getData()

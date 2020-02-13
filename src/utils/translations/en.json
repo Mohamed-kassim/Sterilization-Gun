@@ -20,7 +20,7 @@
   },
   "retailers":{
     "AMAZON_CA": "Amazon",
-    "WALMART_CA ": "Walmart",
+    "Walmart": "Walmart",
     "ALIEXPRESS": "ALIEXPRESS"
   },
   "loginform": {

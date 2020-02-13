@@ -5,7 +5,7 @@ const SettingsList = ({ data, navigation }) => {
   const onPress = (item) => {
     item.nav === "AddAddress"
       ? navigation.navigate("AddAddress", { route: "Settings" })
-      : navigation.navigate(item.nav);
+      : item.nav === "PersonalSettings" ? navigation.navigate('') :navigation.navigate(item.nav);
   };
   return data.map(item => (
     <SettingsItem
