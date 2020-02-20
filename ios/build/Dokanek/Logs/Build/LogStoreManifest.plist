@@ -35,35 +35,6 @@
 			<key>uniqueIdentifier</key>
 			<string>4450F6FA-86B4-4D4C-8BA2-CC4DE5EED298</string>
 		</dict>
-		<key>78FDA929-4E00-413B-AEE0-23F058886A8B</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>78FDA929-4E00-413B-AEE0-23F058886A8B.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>Dokanek project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Dokanek</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building workspace Dokanek with scheme Dokanek and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>603289674.97262502</real>
-			<key>timeStoppedRecording</key>
-			<real>603289688.97414505</real>
-			<key>title</key>
-			<string>Building workspace Dokanek with scheme Dokanek and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>78FDA929-4E00-413B-AEE0-23F058886A8B</string>
-		</dict>
 	</dict>
 </dict>
 </plist>
