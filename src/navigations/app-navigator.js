@@ -1,22 +1,23 @@
-import { createStackNavigator } from "react-navigation-stack";
+import { createStackNavigator } from "@react-navigation/stack"
 import HomeScreen from "_scenes/home";
 // import AboutScreen from "_scenes/about";
 
-const StackNavigatorConfig = {
-  
-};
 
-const RouteConfigs = {
-  Home: {
-    screen: HomeScreen
-  },
+const Stack = createStackNavigator();
 
-  // About: {
-  //   screen: AboutScreen
-  // },
+function AppStack() {
+  return (
+    <Stack.Navigator
+      initialRouteName="Home"
+      screenOptions={{ gestureEnabled: false }}
+    >
+      <Stack.Screen
+        name="Home"
+        component={HomeScreen}
+        options={{ title: 'Home' }}
+      />
 
-};
-
-const AppStack = createStackNavigator(RouteConfigs, StackNavigatorConfig);
-
+    </Stack.Navigator>
+  );
+}
 export default AppStack;

@@ -1,15 +1,21 @@
-import { createStackNavigator } from "react-navigation-stack";
-// import {Login, AddAddress, PasswordReset, SignUp} from '_scenes/'
+import { createStackNavigator } from "@react-navigation/stack";
 import HomeScreen from "_scenes/home";
-const StackNavigatorConfig = {
-  initialRouteName: "HomeScreen",
-};
 
-const RouteConfigs = {
-  HomeScreen
-};
+const Stack = createStackNavigator();
 
-const AuthStack = createStackNavigator(RouteConfigs, StackNavigatorConfig);
+function AuthStack() {
+  return (
+    <Stack.Navigator
+      initialRouteName="Home"
+      screenOptions={{ gestureEnabled: false }}
+    >
+      <Stack.Screen
+        name="Home"
+        component={HomeScreen}
+        options={{ title: 'Home' }}
+      />
 
-
+    </Stack.Navigator>
+  );
+}
 export default AuthStack;

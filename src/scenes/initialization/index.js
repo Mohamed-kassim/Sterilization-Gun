@@ -3,10 +3,12 @@ import { Block } from "_atoms";
 import { initializeApp, cleanApp } from "_bootstrap/initialize";
 import { LoadingAnimation } from "_molecules";
 import { t } from "_i18n";
-import AsyncStorage from "@react-native-community/async-storage";
-
+import App from "_navigations/app-navigator";
+import Auth from "_navigations/auth-navigator";
 const Initialization = ({ navigation }) => {
   const [isLoadingComplete, setIsLoadingComplete] = useState(false);
+  const [checkSwitch, setCheckSwitch] = useState(false);
+  const [connected, setConnected] = useState(false);
   useEffect(() => {
     initializeApp();
     setTimeout(() => {
@@ -19,19 +21,9 @@ const Initialization = ({ navigation }) => {
 
   const onLoadingFinish = async () => {
     console.log("on loading finish", isLoadingComplete);
-    let language = await AsyncStorage.getItem("language");
-    if(language){
-      console.log('found language in async storage with value', language)
-      navigation.navigate("Home");
-    }
-    else{
-
-    navigation.navigate("Home");
-  }
-
-    
+    setCheckSwitch(true);
   };
-  return (
+  const SplashScreen = () => (
     <Block>
       <LoadingAnimation
         img={require("../../assets/images/logo.png")}
@@ -40,6 +32,11 @@ const Initialization = ({ navigation }) => {
       />
     </Block>
   );
+  if (!checkSwitch) {
+    return <SplashScreen />;
+  } else {
+    return connected ? App :Auth
+  }
 };
 
 export default Initialization;
