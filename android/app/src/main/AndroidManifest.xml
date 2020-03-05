@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.dokanek">
+  package="com.haya.keep">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

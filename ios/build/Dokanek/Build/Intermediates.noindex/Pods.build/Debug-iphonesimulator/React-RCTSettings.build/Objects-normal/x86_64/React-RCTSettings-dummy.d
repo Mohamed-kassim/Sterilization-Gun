@@ -1,3 +1,0 @@
-dependencies: \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/React-RCTSettings/React-RCTSettings-dummy.m \
-  /Users/mohamedkassim/Desktop/untitled\ folder/Dokanek/ios/Pods/Target\ Support\ Files/React-RCTSettings/React-RCTSettings-prefix.pch
