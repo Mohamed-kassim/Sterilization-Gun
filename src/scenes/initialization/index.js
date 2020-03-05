@@ -25,8 +25,8 @@ const Initialization = ({ navigation }) => {
       navigation.navigate("Home");
     }
     else{
-    console.log('No language ', language)
-    navigation.navigate("Language");
+
+    navigation.navigate("Home");
   }
 
     

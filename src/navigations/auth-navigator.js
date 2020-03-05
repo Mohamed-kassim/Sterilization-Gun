@@ -1,15 +1,12 @@
 import { createStackNavigator } from "react-navigation-stack";
-import {Login, AddAddress, PasswordReset, SignUp} from '_scenes/'
-
+// import {Login, AddAddress, PasswordReset, SignUp} from '_scenes/'
+import HomeScreen from "_scenes/home";
 const StackNavigatorConfig = {
-  initialRouteName: "Login",
+  initialRouteName: "HomeScreen",
 };
 
 const RouteConfigs = {
-  Login,
-  PasswordReset,
-  AddAddress,
-  SignUp,
+  HomeScreen
 };
 
 const AuthStack = createStackNavigator(RouteConfigs, StackNavigatorConfig);
