@@ -35,7 +35,7 @@ const Initialization = ({ navigation }) => {
   if (!checkSwitch) {
     return <SplashScreen />;
   } else {
-    return connected ? App :Auth
+    return connected ? <App/> :<Auth/>
   }
 };
 
