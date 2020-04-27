@@ -27,5 +27,24 @@ const useDataApi = url => {
 
   return [dataState];
 };
+const useCombinedRefs = (...refs) => {
+  const targetRef = useRef();
 
-export {useDataApi};
+  useEffect(() => {
+    refs.forEach(ref => {
+      if (!ref) {
+        return;
+      }
+
+      if (typeof ref === 'function') {
+        ref(targetRef.current);
+      } else {
+        ref.current = targetRef.current;
+      }
+    });
+  }, [refs]);
+
+  return targetRef;
+};
+
+export {useDataApi,useCombinedRefs};

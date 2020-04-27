@@ -19,7 +19,7 @@ function AppStack() {
       <Stack.Screen
         name="Home"
         component={HomeScreen}
-        options={{ title: 'Home' }}
+        options={{ title: 'Home', headerShown: false }}
       />
 
     </Stack.Navigator>

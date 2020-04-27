@@ -112,11 +112,28 @@ const logout = {
   icon: <Icon name="sign-out" size={Spacing.BASE} color={Colors.ERROR} />
 };
 
+const frequencies = [
+  {name: "1M", value:1000000},
+  {name: "100K", value:100000},
+  {name: "10K", value:10000},
+  {name: "1K", value:1000},
+  {name: "100HZ", value:100},
+  {name: "10HZ", value:10},
+]
+const waves  = [
+  {name: "Sine", value:1000000},
+  {name: "Sqr", value:100000},
+  {name: "Tri", value:10000},
+  {name: "Sweep", value:1000},
+]
+
 export {
   SignUpFields,
   LoginFields,
   ResetFields,
   AddAddressFields,
   SettingsButtons,
-  logout
+  logout,
+  frequencies,
+  waves
 };

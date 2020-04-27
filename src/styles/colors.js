@@ -1,8 +1,8 @@
-export const PRIMARY = "#FEE600";
-export const SECONDARY = "#767676";
+export const PRIMARY = "#75ccb2";
+export const SECONDARY = "#FFFB00";
 export const WHITE = "#FFFFFF";
 export const BLACK = "#000000";
-export const ACCENT = "#74b9ff";
+export const ACCENT = "#20124d";
 
 // ACTIONS
 export const SUCCESS = "#3adb76";

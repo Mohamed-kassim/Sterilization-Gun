@@ -14,7 +14,7 @@ export default class Block extends Component {
       };
     }
 
-    if (typeof margiBn === "object") {
+    if (typeof margin === "object") {
       const marginSize = Object.keys(margin).length;
       switch (marginSize) {
         case 1:

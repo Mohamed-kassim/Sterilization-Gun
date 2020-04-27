@@ -4,78 +4,29 @@ import {
   Easing,
   StyleSheet,
   Dimensions,
-  ActivityIndicator
+  ActivityIndicator,
 } from "react-native";
-
-import { Spacing, Colors } from "_styles";
+import LottieView from "lottie-react-native";
+import { Block } from "_atoms";
 const { width, height } = Dimensions.get("window");
-export default LoadingAnimationComponent = props => {
+export default LoadingAnimationComponent = (props) => {
 
-  const [animationValue, setAnimatedValue] = useState(new Animated.Value(0));
-  const [animationCompleted, setAnimationCompleted] = useState(false);
-  const [Loaded, setLoaded] = useState(false);
 
-  const triggerAnimation = () => {
-    Animated.timing(animationValue, {
-      toValue: 1,
-      duration: 1000,
-      useNativeDriver: true,
-      easing: Easing.in(Easing.exp)
-    }).start(() => onAnimationCompleted());
-  };
 
   const onAnimationCompleted = () => {
-    setAnimationCompleted(true);
     props.onLoadingFinish();
   };
 
-  useEffect(() => {
-    if (props.Loaded !== Loaded) {
-      setLoaded(props.Loaded);
-      triggerAnimation();
-    }
-  }, [props.Loaded]);
-
-  const renderAnimatedComponent = () => {
-    const opacity = animationValue.interpolate({
-      inputRange: [0, 1],
-      outputRange: [1, 0]
-    });
-    const transform = [
-      {
-        scale: animationValue.interpolate({
-          inputRange: [0, 1],
-          outputRange: [1, 1.5]
-        })
-      }
-    ];
-
-    return (
-      <Animated.View style={[styles.container, { opacity }]}>
-        <Animated.Image
-          source={props.img}
-          style={[styles.image, { transform }]}
-        />
-        {animationCompleted ? null : (
-          <ActivityIndicator size={Spacing.BASE} color={"black"} />
-        )}
-      </Animated.View>
-    );
-  };
-
-  return animationCompleted ? null : renderAnimatedComponent();
-};
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "#fff"
-  },
-  image: {
-    width: width * 0.4,
-    height: width * 0.4,
-    resizeMode: "contain"
+  return (
+    <Block center middle color={'#75ccb2'}>
+      <LottieView
+        source={require("_assets/animations/splash.json")}
+        autoPlay
+        loop={false}
+        speed={1}
+        style={{ width, height: width, backgroundColor:'#75ccb2', }}
+        onAnimationFinish={onAnimationCompleted}
+      />
+    </Block>
+)
   }
-});

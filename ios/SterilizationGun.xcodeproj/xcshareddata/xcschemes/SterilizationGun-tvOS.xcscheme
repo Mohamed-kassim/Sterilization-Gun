@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "Keep-tvOS.app"
-               BlueprintName = "Keep-tvOS"
-               ReferencedContainer = "container:Keep.xcodeproj">
+               BuildableName = "SterilizationGun-tvOS.app"
+               BlueprintName = "SterilizationGun-tvOS"
+               ReferencedContainer = "container:SterilizationGun.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Keep-tvOSTests.xctest"
-               BlueprintName = "Keep-tvOSTests"
-               ReferencedContainer = "container:Keep.xcodeproj">
+               BuildableName = "SterilizationGun-tvOSTests.xctest"
+               BlueprintName = "SterilizationGun-tvOSTests"
+               ReferencedContainer = "container:SterilizationGun.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Keep-tvOSTests.xctest"
-               BlueprintName = "Keep-tvOSTests"
-               ReferencedContainer = "container:Keep.xcodeproj">
+               BuildableName = "SterilizationGun-tvOSTests.xctest"
+               BlueprintName = "SterilizationGun-tvOSTests"
+               ReferencedContainer = "container:SterilizationGun.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Keep-tvOS.app"
-            BlueprintName = "Keep-tvOS"
-            ReferencedContainer = "container:Keep.xcodeproj">
+            BuildableName = "SterilizationGun-tvOS.app"
+            BlueprintName = "SterilizationGun-tvOS"
+            ReferencedContainer = "container:SterilizationGun.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Keep-tvOS.app"
-            BlueprintName = "Keep-tvOS"
-            ReferencedContainer = "container:Keep.xcodeproj">
+            BuildableName = "SterilizationGun-tvOS.app"
+            BlueprintName = "SterilizationGun-tvOS"
+            ReferencedContainer = "container:SterilizationGun.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Keep-tvOS.app"
-            BlueprintName = "Keep-tvOS"
-            ReferencedContainer = "container:Keep.xcodeproj">
+            BuildableName = "SterilizationGun-tvOS.app"
+            BlueprintName = "SterilizationGun-tvOS"
+            ReferencedContainer = "container:SterilizationGun.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
