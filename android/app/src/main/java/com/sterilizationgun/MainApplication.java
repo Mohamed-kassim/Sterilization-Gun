@@ -1,4 +1,4 @@
-package com.haya.keep;
+package com.sterilizationgun;
 
 import android.app.Application;
 import android.content.Context;
