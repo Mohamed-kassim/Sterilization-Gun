@@ -1,0 +1,225 @@
+Date : 2020-01-16 13:49:37
+Directory : /Users/mohamedkassim/Desktop/untitled folder/Dokanek
+Total : 142 files,  14001 codes, 249 comments, 511 blanks, all 14761 lines
+
+Languages
++-------------+------------+------------+------------+------------+------------+
+| language    | files      | code       | comment    | blank      | total      |
++-------------+------------+------------+------------+------------+------------+
+| JSON        |          8 |      9,233 |         16 |          7 |      9,256 |
+| JavaScript  |        117 |      4,378 |         71 |        409 |      4,858 |
+| Groovy      |          3 |        119 |        113 |         20 |        252 |
+| XML         |          5 |         82 |          2 |         12 |         96 |
+| Batch       |          1 |         76 |          0 |         25 |        101 |
+| Java        |          2 |         63 |         15 |         13 |         91 |
+| Objective-C |          2 |         37 |         12 |         12 |         61 |
+| Properties  |          3 |          8 |         14 |          8 |         30 |
+| C++         |          1 |          5 |          6 |          5 |         16 |
++-------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                              | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                 |        142 |     14,001 |        249 |        511 |     14,761 |
+| __tests__                                                                                                         |          1 |          7 |          4 |          4 |         15 |
+| android                                                                                                           |         12 |        305 |        144 |         76 |        525 |
+| android/app                                                                                                       |          7 |        187 |        125 |         38 |        350 |
+| android/app/src                                                                                                   |          6 |        103 |         17 |         24 |        144 |
+| android/app/src/debug                                                                                             |          1 |          6 |          0 |          3 |          9 |
+| android/app/src/main                                                                                              |          5 |         97 |         17 |         21 |        135 |
+| android/app/src/main/java                                                                                         |          2 |         63 |         15 |         13 |         91 |
+| android/app/src/main/java/com                                                                                     |          2 |         63 |         15 |         13 |         91 |
+| android/app/src/main/java/com/dokanek                                                                             |          2 |         63 |         15 |         13 |         91 |
+| android/app/src/main/res                                                                                          |          2 |          8 |          2 |          4 |         14 |
+| android/app/src/main/res/values                                                                                   |          2 |          8 |          2 |          4 |         14 |
+| android/gradle                                                                                                    |          1 |          5 |          0 |          1 |          6 |
+| android/gradle/wrapper                                                                                            |          1 |          5 |          0 |          1 |          6 |
+| ios                                                                                                               |          6 |        128 |         18 |         19 |        165 |
+| ios/Dokanek                                                                                                       |          6 |        128 |         18 |         19 |        165 |
+| ios/Dokanek/Base.lproj                                                                                            |          1 |         42 |          0 |          1 |         43 |
+| ios/Dokanek/Images.xcassets                                                                                       |          2 |         44 |          0 |          1 |         45 |
+| ios/Dokanek/Images.xcassets/AppIcon.appiconset                                                                    |          1 |         38 |          0 |          0 |         38 |
+| src                                                                                                               |        114 |      4,508 |         58 |        402 |      4,968 |
+| src/bootstrap                                                                                                     |          2 |         26 |          4 |          9 |         39 |
+| src/components                                                                                                    |         73 |      3,219 |         26 |        264 |      3,509 |
+| src/components/atoms                                                                                              |         16 |      1,285 |         20 |         82 |      1,387 |
+| src/components/molecules                                                                                          |         31 |      1,263 |          6 |        100 |      1,369 |
+| src/components/molecules/buttons                                                                                  |          2 |         13 |          0 |          2 |         15 |
+| src/components/molecules/forms                                                                                    |          5 |        343 |          0 |         20 |        363 |
+| src/components/molecules/logos                                                                                    |          2 |         18 |          0 |          2 |         20 |
+| src/components/organisms                                                                                          |         26 |        671 |          0 |         82 |        753 |
+| src/components/organisms/buttons                                                                                  |          3 |         63 |          0 |          9 |         72 |
+| src/components/organisms/forms                                                                                    |          5 |         76 |          0 |         16 |         92 |
+| src/constants                                                                                                     |          2 |        116 |          0 |          9 |        125 |
+| src/navigations                                                                                                   |          3 |         80 |          0 |         15 |         95 |
+| src/scenes                                                                                                        |         20 |        657 |          5 |         55 |        717 |
+| src/scenes/Authentication                                                                                         |          4 |         49 |          0 |          8 |         57 |
+| src/scenes/Authentication/Login                                                                                   |          1 |         12 |          0 |          1 |         13 |
+| src/scenes/Authentication/PasswordReset                                                                           |          1 |         17 |          0 |          1 |         18 |
+| src/scenes/Authentication/SignUp                                                                                  |          1 |         17 |          0 |          4 |         21 |
+| src/scenes/Cart                                                                                                   |          1 |         21 |          0 |          2 |         23 |
+| src/scenes/Checkout                                                                                               |          1 |         18 |          0 |          1 |         19 |
+| src/scenes/OrderConfirmation                                                                                      |          1 |         46 |          0 |          4 |         50 |
+| src/scenes/OrderHistory                                                                                           |          1 |         70 |          0 |          1 |         71 |
+| src/scenes/OrderSummary                                                                                           |          1 |         21 |          0 |          2 |         23 |
+| src/scenes/PersonalSettings                                                                                       |          1 |         18 |          0 |          2 |         20 |
+| src/scenes/ProductDetails                                                                                         |          1 |         23 |          0 |          3 |         26 |
+| src/scenes/Search                                                                                                 |          1 |         21 |          0 |          4 |         25 |
+| src/scenes/Settings                                                                                               |          2 |         34 |          0 |          3 |         37 |
+| src/scenes/about                                                                                                  |          2 |        229 |          5 |          7 |        241 |
+| src/scenes/home                                                                                                   |          1 |         28 |          0 |          6 |         34 |
+| src/scenes/initialization                                                                                         |          2 |         76 |          0 |         10 |         86 |
+| src/styles                                                                                                        |          5 |         89 |          8 |         27 |        124 |
+| src/utils                                                                                                         |          8 |        309 |         15 |         20 |        344 |
+| src/utils/translations                                                                                            |          2 |        182 |          0 |          4 |        186 |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------+-------------+------------+------------+------------+------------+
+| filename                                                                                                          | language    | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------+-------------+------------+------------+------------+------------+
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/.eslintrc.js                                                 | JavaScript  |         28 |          0 |          1 |         29 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/.gitattributes                                               | Properties  |          1 |          0 |          1 |          2 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/__tests__/App-test.js                                        | JavaScript  |          7 |          4 |          4 |         15 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/app/build.gradle                                     | Groovy      |         84 |        108 |         14 |        206 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/app/src/debug/AndroidManifest.xml                    | XML         |          6 |          0 |          3 |          9 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/app/src/main/AndroidManifest.xml                     | XML         |         26 |          0 |          4 |         30 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/app/src/main/java/com/dokanek/MainActivity.java      | Java        |          8 |          4 |          4 |         16 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/app/src/main/java/com/dokanek/MainApplication.java   | Java        |         55 |         11 |          9 |         75 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/app/src/main/res/values/strings.xml                  | XML         |          3 |          0 |          1 |          4 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/app/src/main/res/values/styles.xml                   | XML         |          5 |          2 |          3 |         10 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/build.gradle                                         | Groovy      |         32 |          5 |          5 |         42 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/gradle.properties                                    | Properties  |          2 |         14 |          6 |         22 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/gradle/wrapper/gradle-wrapper.properties             | Properties  |          5 |          0 |          1 |          6 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/gradlew.bat                                          | Batch       |         76 |          0 |         25 |        101 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/android/settings.gradle                                      | Groovy      |          3 |          0 |          1 |          4 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/app.json                                                     | JSON        |          4 |          0 |          0 |          4 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/babel.config.js                                              | JavaScript  |          3 |          0 |          1 |          4 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/index.js                                                     | JavaScript  |          4 |          3 |          3 |         10 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/ios/Dokanek/AppDelegate.h                                    | C++         |          5 |          6 |          5 |         16 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/ios/Dokanek/AppDelegate.m                                    | Objective-C |         30 |          6 |          8 |         44 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/ios/Dokanek/Base.lproj/LaunchScreen.xib                      | XML         |         42 |          0 |          1 |         43 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/ios/Dokanek/Images.xcassets/AppIcon.appiconset/Contents.json | JSON        |         38 |          0 |          0 |         38 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/ios/Dokanek/Images.xcassets/Contents.json                    | JSON        |          6 |          0 |          1 |          7 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/ios/Dokanek/main.m                                           | Objective-C |          7 |          6 |          4 |         17 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/jsconfig.json                                                | JSON        |          5 |         16 |          0 |         21 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/metro.config.js                                              | JavaScript  |         10 |          6 |          2 |         18 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/package-lock.json                                            | JSON        |      8,946 |          0 |          1 |      8,947 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/package.json                                                 | JSON        |         52 |          0 |          1 |         53 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/bootstrap/globalState.js                                 | JavaScript  |         10 |          0 |          5 |         15 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/bootstrap/initialize.js                                  | JavaScript  |         16 |          4 |          4 |         24 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Accordion.js                            | JavaScript  |         75 |          0 |          9 |         84 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Badge.js                                | JavaScript  |         37 |          0 |          5 |         42 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Block.js                                | JavaScript  |        231 |          0 |         10 |        241 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Button.js                               | JavaScript  |        132 |          0 |          7 |        139 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Card.js                                 | JavaScript  |        159 |          0 |          9 |        168 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Divider.js                              | JavaScript  |         29 |          0 |          6 |         35 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/HorizontalList.js                       | JavaScript  |         23 |         10 |          2 |         35 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Image.js                                | JavaScript  |         22 |          0 |          3 |         25 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Input.js                                | JavaScript  |        287 |          0 |         12 |        299 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Map.js                                  | JavaScript  |         40 |          0 |          4 |         44 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Rating.js                               | JavaScript  |         34 |          0 |          3 |         37 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Section.js                              | JavaScript  |         35 |          0 |          2 |         37 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Switch.js                               | JavaScript  |         25 |          0 |          3 |         28 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/Text.js                                 | JavaScript  |        124 |          9 |          5 |        138 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/VerticalList.js                         | JavaScript  |         17 |          1 |          2 |         20 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/atoms/index.js                                | JavaScript  |         15 |          0 |          0 |         15 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/AddressMap.js                       | JavaScript  |         46 |          0 |          6 |         52 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/CartItem.js                         | JavaScript  |         99 |          0 |          3 |        102 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/CartList.js                         | JavaScript  |          7 |          0 |          2 |          9 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/CartTotal.js                        | JavaScript  |         26 |          0 |          3 |         29 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/Features.js                         | JavaScript  |         96 |          1 |          2 |         99 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/FieldInput.js                       | JavaScript  |         23 |          1 |          1 |         25 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/LoadingAnimation.js                 | JavaScript  |         72 |          0 |         10 |         82 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/OrderHistoryItem.js                 | JavaScript  |         15 |          0 |          3 |         18 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/OrderHistoryList.js                 | JavaScript  |         12 |          0 |          2 |         14 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/OrderStatus.js                      | JavaScript  |         51 |          0 |          3 |         54 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/OrderSummaryItem.js                 | JavaScript  |         88 |          0 |          4 |         92 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/OrderSummaryList.js                 | JavaScript  |          7 |          0 |          2 |          9 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/OrderSummaryTotal.js                | JavaScript  |         44 |          0 |          6 |         50 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/Pick.js                             | JavaScript  |         26 |          0 |          4 |         30 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/Picks.js                            | JavaScript  |          7 |          0 |          2 |          9 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/SearchBox.js                        | JavaScript  |         78 |          4 |          6 |         88 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/SearchItem.js                       | JavaScript  |         30 |          0 |          4 |         34 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/SearchList.js                       | JavaScript  |          7 |          0 |          2 |          9 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/SettingsItem.js                     | JavaScript  |         26 |          0 |          4 |         30 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/SettingsList.js                     | JavaScript  |         20 |          0 |          2 |         22 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/Slider.js                           | JavaScript  |         88 |          0 |          5 |         93 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/buttons/CircularButton.js           | JavaScript  |         12 |          0 |          2 |         14 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/buttons/index.js                    | JavaScript  |          1 |          0 |          0 |          1 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/forms/AddAddress.js                 | JavaScript  |         86 |          0 |          4 |         90 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/forms/LoginForm.js                  | JavaScript  |         89 |          0 |          5 |         94 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/forms/ResetForm.js                  | JavaScript  |         78 |          0 |          5 |         83 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/forms/SignUpForm.js                 | JavaScript  |         86 |          0 |          6 |         92 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/forms/index.js                      | JavaScript  |          4 |          0 |          0 |          4 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/index.js                            | JavaScript  |         21 |          0 |          0 |         21 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/logos/Logo.js                       | JavaScript  |         17 |          0 |          2 |         19 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/molecules/logos/index.js                      | JavaScript  |          1 |          0 |          0 |          1 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/Cart.js                             | JavaScript  |         28 |          0 |          3 |         31 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/CartList.js                         | JavaScript  |         62 |          0 |          3 |         65 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/CartTotal.js                        | JavaScript  |          6 |          0 |          2 |          8 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/Features.js                         | JavaScript  |         21 |          0 |          2 |         23 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/HomeHeader.js                       | JavaScript  |         34 |          0 |          3 |         37 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/HomeSlider.js                       | JavaScript  |         22 |          0 |          3 |         25 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/LoginForm.js                        | JavaScript  |         20 |          0 |          4 |         24 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/OrderHistory.js                     | JavaScript  |          0 |          0 |          1 |          1 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/OrderSummary.js                     | JavaScript  |         53 |          0 |          6 |         59 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/OrderSummaryList.js                 | JavaScript  |         62 |          0 |          3 |         65 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/OrderSummaryTotal.js                | JavaScript  |          6 |          0 |          2 |          8 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/ProductSlider.js                    | JavaScript  |         21 |          0 |          3 |         24 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/SearchBox.js                        | JavaScript  |         21 |          0 |          5 |         26 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/SearchList.js                       | JavaScript  |         49 |          0 |          3 |         52 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/Settings.js                         | JavaScript  |         25 |          0 |          7 |         32 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/SettingsList.js                     | JavaScript  |         13 |          0 |          4 |         17 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/TopPicks.js                         | JavaScript  |         72 |          0 |          3 |         75 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/buttons/CheckoutButton.js           | JavaScript  |         23 |          0 |          3 |         26 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/buttons/PaymentButton.js            | JavaScript  |         38 |          0 |          6 |         44 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/buttons/index.js                    | JavaScript  |          2 |          0 |          0 |          2 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/forms/AddAddress.js                 | JavaScript  |         21 |          0 |          6 |         27 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/forms/LoginForm.js                  | JavaScript  |         20 |          0 |          4 |         24 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/forms/ResetForm.js                  | JavaScript  |         15 |          0 |          3 |         18 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/forms/SignUpForm.js                 | JavaScript  |         16 |          0 |          3 |         19 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/forms/index.js                      | JavaScript  |          4 |          0 |          0 |          4 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/components/organisms/index.js                            | JavaScript  |         17 |          0 |          0 |         17 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/constants/index.js                                       | JavaScript  |          2 |          0 |          2 |          4 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/constants/mocks.js                                       | JavaScript  |        114 |          0 |          7 |        121 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/index.js                                                 | JavaScript  |         12 |          0 |          3 |         15 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/navigations/app-navigator.js                             | JavaScript  |         50 |          0 |          5 |         55 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/navigations/auth-navigator.js                            | JavaScript  |         13 |          0 |          6 |         19 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/navigations/index.js                                     | JavaScript  |         17 |          0 |          4 |         21 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/Authentication/Login/index.js                     | JavaScript  |         12 |          0 |          1 |         13 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/Authentication/PasswordReset/index.js             | JavaScript  |         17 |          0 |          1 |         18 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/Authentication/SignUp/index.js                    | JavaScript  |         17 |          0 |          4 |         21 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/Authentication/index.js                           | JavaScript  |          3 |          0 |          2 |          5 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/Cart/index.js                                     | JavaScript  |         21 |          0 |          2 |         23 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/Checkout/index.js                                 | JavaScript  |         18 |          0 |          1 |         19 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/OrderConfirmation/index.js                        | JavaScript  |         46 |          0 |          4 |         50 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/OrderHistory/index.js                             | JavaScript  |         70 |          0 |          1 |         71 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/OrderSummary/index.js                             | JavaScript  |         21 |          0 |          2 |         23 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/PersonalSettings/index.js                         | JavaScript  |         18 |          0 |          2 |         20 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/ProductDetails/index.js                           | JavaScript  |         23 |          0 |          3 |         26 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/Search/index.js                                   | JavaScript  |         21 |          0 |          4 |         25 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/Settings/AddAddress.js                            | JavaScript  |         17 |          0 |          2 |         19 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/Settings/index.js                                 | JavaScript  |         17 |          0 |          1 |         18 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/about/index.js                                    | JavaScript  |        209 |          5 |          4 |        218 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/about/map.js                                      | JavaScript  |         20 |          0 |          3 |         23 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/home/index.js                                     | JavaScript  |         28 |          0 |          6 |         34 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/index.js                                          | JavaScript  |          3 |          0 |          2 |          5 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/initialization/index.js                           | JavaScript  |         40 |          0 |          6 |         46 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/scenes/initialization/initLanguage.js                    | JavaScript  |         36 |          0 |          4 |         40 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/styles/colors.js                                         | JavaScript  |         13 |          2 |          2 |         17 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/styles/index.js                                          | JavaScript  |          5 |          0 |          2 |          7 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/styles/mixins.js                                         | JavaScript  |         33 |          0 |         10 |         43 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/styles/spacing.js                                        | JavaScript  |         12 |          0 |          4 |         16 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/styles/typography.js                                     | JavaScript  |         26 |          6 |          9 |         41 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/utils/axios-apis.js                                      | JavaScript  |          0 |          7 |          3 |         10 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/utils/getPosition.js                                     | JavaScript  |         47 |          1 |          3 |         51 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/utils/hooks.js                                           | JavaScript  |          0 |          0 |          1 |          1 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/utils/i18n.js                                            | JavaScript  |         27 |          7 |          5 |         39 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/utils/index.js                                           | JavaScript  |          2 |          0 |          1 |          3 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/utils/requestLocationPermission.js                       | JavaScript  |         51 |          0 |          3 |         54 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/utils/translations/ar.json                               | JSON        |         58 |          0 |          2 |         60 |
+| /Users/mohamedkassim/Desktop/untitled folder/Dokanek/src/utils/translations/en.json                               | JSON        |        124 |          0 |          2 |        126 |
+| Total                                                                                                             |             |     14,001 |        249 |        511 |     14,761 |
++-------------------------------------------------------------------------------------------------------------------+-------------+------------+------------+------------+------------+

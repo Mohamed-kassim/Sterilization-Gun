@@ -1,0 +1,126 @@
+{
+  "appName": "Dokanek",
+  "hello": "Welcome to Dokanek!",
+  "permissions": {
+    "location": {
+      "title": "Dokanek Location Permission",
+      "requireMsg": "Dokanek needs access to your location",
+      "failMsg": "falied to grant Location Permission"
+    }
+  },
+  "position": {
+      "title": "Dokanek Location",
+      "failMsg": "falied to get your current location, please make sure your gps is on and Dokanek has permissions"
+  },
+  "buttons": {
+    "neutral": "Ask Me Later",
+    "positive": "Okay",
+    "negative": "Cancel",
+    "changeLang": "Change Language"
+  },
+  "retailers":{
+    "AMAZON_CA": "Amazon",
+    "Walmart": "Walmart",
+    "ALIEXPRESS": "ALIEXPRESS"
+  },
+  "loginform": {
+    "welcome": "Welcome to Dokanek, please sign in",
+    "placeholders": {
+      "email": "E-mail",
+      "password": "Password"
+    },
+    "buttons": {
+      "login": "SIGN IN",
+      "forget": "Forgot Password?",
+      "register": "CREATE AN ACCOUNT"
+    }
+  },
+  "SignUpForm": {
+    "title": "Sign Up",
+    "welcome": "Welcome to Dokanek, please sign up",
+    "placeholders": {
+      "email": "E-mail",
+      "password": "Password",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "confirm_password": "Confirm Password",
+      "phone": "Phone"
+    },
+    "buttons": {
+      "login": "Already have an account?",
+      "clickable-login": "Sign In",
+      "register": "SIGN UP"
+    }
+  },
+  "ResetForm": {
+    "title":"Reset Password",
+    "welcome": "Reset Your Password",
+    "placeholders": {
+      "email": "E-mail"
+    },
+    "buttons": {
+      "login": "Back to",
+      "clickable-login": "Sign In",
+      "reset": "RESET PASSWORD"
+    }
+  },
+  "AddAddress": {
+    "title":"Add Address",
+    "welcome": "Welcome",
+    "placeholders": {
+      "street_address": "Street Address",
+      "state": "State",
+      "city": "City",
+      "zip": "Zip",
+      "nearest_landmark": "Nearest Landmark",
+    },
+    "buttons": {
+      "save": "Save",
+      "skip": "Skip for later"
+    }
+  },
+  "Cart": {
+    "title":"Cart",
+    "from": "From",
+    "buttons":{
+      "checkout": "Proceed To Checkout",
+      "AddToCart": "AddToCart"
+    }
+  },
+  "OrderSummary": {
+    "title":"Order summary",
+    "from": "From",
+    "quantity": "Quantity",
+    "buttons":{
+      "payment": "CONTINUE TO PAYMENT"
+    },
+    "placeholders":{
+      "delivery_notes": "Delivery Notes"
+    }
+  },
+  "ProductDetails": {
+    "title":"Product Details",
+    "from": "From"
+  },
+  "Checkout": {
+    "title":"Checkout",
+    "from": "From"
+  },
+  "OrderConfirmation": {
+    "title":"Order Success",
+    "from": "From"
+  },
+  "OrderHistory": {
+    "title":"Order History",
+    "from": "From"
+  },
+
+  "Settings": {
+    "title":"Settings",
+    "from": "From"
+  },
+  "PersonalSettings": {
+    "title":"Personal Settings",
+    "from": "From"
+  }
+}

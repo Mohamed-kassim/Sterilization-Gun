@@ -1,0 +1,59 @@
+{
+  "appName": "كييب",
+  "hello": "أهلاً بك في تطبيق كييب",
+  "permissions": {
+    "location": {
+      "title": "السماح باستخدام الموقع",
+      "requireMsg": "كييب يحتاج لاخذ الاذن لاستخدام موقعك",
+      "failMsg": "فشل في الحصول على الإذن"
+    }
+  },
+  "buttons": {
+    "neutral": "لاحقاً",
+    "positive": "تأكيد",
+    "negative": "إلغاء",
+    "changeLang": "تغيير اللغة"
+  },
+  "loginform":{
+    "welcome": "مرحبًا بكم في كييب، يرجى تسجيل الدخول",
+    "placeholders": {
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور"
+    },
+    "buttons":{
+      "login": "SIGN IN", 
+      "forget": "هل نسيت كلمة المرور؟",
+      "register": "إنشاء حساب"
+    }
+  },
+  "SignUpForm":{
+    "title":"حساب جديد",
+    "welcome": "مرحبًا بكم في كييب، يرجى الإشتراك",
+    "placeholders": {
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "first_name": "الإسم الأول",
+      "last_name": "الإسم الأخير",
+      "confirm_password": "اعد كلمة المرور",
+      "phone": "رقم الهاتف"
+    },
+    "buttons":{
+      "login": "هل لديك حساب؟",
+      "clickable-login": "تسجيل الدخول",
+      "register": "الإشتراك"
+    }
+  },
+  "ResetForm":{
+    "title":"تعيين كلمة المرور",
+    "welcome": "اعد تعيين كلمة المرور",
+    "placeholders": {
+      "email": "البريد الإلكتروني",
+    },
+    "buttons":{
+      "login": "العودة إلى",
+      "clickable-login": "تسجيل الدخول",
+      "reset": "إعادة تعيين كلمة المرور"
+    }
+}
+}
+
